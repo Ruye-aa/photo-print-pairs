@@ -1,0 +1,224 @@
+{
+  "status": "historical candidate prompts, not an acceptance baseline",
+  "examples": [
+    {
+      "id": "01_A",
+      "subject": "高山湖泊",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/alpine-landscape-with-mountain-lake-18305002/",
+      "author": "Adrien Olichon",
+      "reference": "assets/reference-originals/image_11c7098e.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent invariants: Preserve this specific broad rocky mountainside descending from upper left to right, the continuous lake shoreline below and the pale lake foreground. The mountain is a ridge, not a single pointed pyramid. Preserve the relative ridge profile. Remove microscopic rock detail and clouds.\nStyle: Minimal torn-paper collage with dry-brush, flat color planes and fibrous deckled edges. Use dark charcoal and gray torn planes with muted olive slopes; a short pale sage dry-brush lake band below, and one small pale blue sky scrap. Interpret the ridge as 5–7 broad planes, not a detailed etching."
+    },
+    {
+      "id": "01_B",
+      "subject": "高山湖泊",
+      "style": "B",
+      "source_page": "https://www.pexels.com/photo/alpine-landscape-with-mountain-lake-18305002/",
+      "author": "Adrien Olichon",
+      "reference": "assets/reference-originals/image_fa4bc15a.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent invariants: Preserve this specific broad rocky mountainside descending from upper left to right, the continuous lake shoreline below and the pale lake foreground. The mountain is a ridge, not a single pointed pyramid. Preserve the relative ridge profile. Remove microscopic rock detail and clouds.\nStyle: Sparse monoprint rubbing with broken ink, material abrasion and directional granular dissolution. Use slate blue single-ink rubbing. Ridge profile and shoreline remain readable, the lower lake breaks into very sparse horizontal dry-brush ripples fading downward. Do not import a tower or vertical axis from the reference."
+    },
+    {
+      "id": "04_A",
+      "subject": "河面垂枝",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/a-tree-branch-over-a-river-with-water-28080654/",
+      "author": "isabel ph",
+      "reference": "assets/reference-originals/image_bba19567.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent invariants: Preserve the prominent thick branch entering from left across the upper scene, its diagonal fork, sparse attached leaves, calm river below, and a simplified distant wooded riverbank. Simplify the dense secondary twig network. No flowers, mountains or buildings.\nStyle: Minimal torn-paper collage with dry-brush, flat color planes and fibrous deckled edges. Use ochre-brown torn branch silhouettes, muted olive leaf scraps and one gray-green dry-brush river band; broad flat handmade shapes, very sparse far-bank shapes."
+    },
+    {
+      "id": "04_B",
+      "subject": "河面垂枝",
+      "style": "B",
+      "source_page": "https://www.pexels.com/photo/a-tree-branch-over-a-river-with-water-28080654/",
+      "author": "isabel ph",
+      "reference": "assets/reference-originals/image_857ac102.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent invariants: Preserve the prominent thick branch entering from left across the upper scene, its diagonal fork, sparse attached leaves, calm river below, and a simplified distant wooded riverbank. Simplify the dense secondary twig network. No flowers, mountains or buildings.\nStyle: Sparse monoprint rubbing with broken ink, material abrasion and directional granular dissolution. Use muted olive single-ink branch rubbing. Preserve thick left-entering forked branch, with paper gaps in its ink; water becomes sparse curved dry rubbings below and to the right, fading into paper. Do not duplicate the reference's different branch silhouette."
+    },
+    {
+      "id": "06_A",
+      "subject": "紫色花枝",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/purple-flowers-on-a-branch-18184147/",
+      "author": "Alejandra Montenegro",
+      "reference": "assets/reference-originals/image_73f7c266.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent invariants: Preserve two hanging flower racemes, the left cluster shorter and slightly higher, the right cluster longer and lower, the lilac five-lobed blossoms and paired pointed green leaves along their attached stems. Remove the blurred dark garden and orange background bokeh. No vase.\nStyle: Minimal torn-paper collage with dry-brush, flat color planes and fibrous deckled edges. Use muted lilac petal paper cutouts and olive-green leaf slivers on one small irregular pale-lilac backing patch; coarse handmade edges, minimal petals yet both clusters remain readable."
+    },
+    {
+      "id": "06_B",
+      "subject": "紫色花枝",
+      "style": "B",
+      "source_page": "https://www.pexels.com/photo/purple-flowers-on-a-branch-18184147/",
+      "author": "Alejandra Montenegro",
+      "reference": "assets/reference-originals/image_3aefec43.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent invariants: Preserve two hanging flower racemes, the left cluster shorter and slightly higher, the right cluster longer and lower, the lilac five-lobed blossoms and paired pointed green leaves along their attached stems. Remove the blurred dark garden and orange background bokeh. No vase.\nStyle: Sparse monoprint rubbing with broken ink, material abrasion and directional granular dissolution. Use lilac and sage-green two-ink botanical rubbing. Keep both flower clusters distinct; peripheral leaf ink forms a subtle sweeping arc toward upper left and lower right with sparse rubbed grain. Avoid a strong vortex obscuring flowers."
+    },
+    {
+      "id": "10_A",
+      "subject": "蓝天白塔",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/white-stupa-against-clear-blue-sky-37218381/",
+      "author": "Pexels User",
+      "reference": "assets/reference-originals/image_d9f4481c.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent invariants: Preserve EXACTLY ONE white stupa: tall ringed golden spire, bulbous urn-shaped body, stepped square base and three red arched doors along the lowest front facade. Preserve frontal symmetry and staircase leading toward it. Omit tiny visitors, gold foreground vessels, weeds and other incidental surroundings. Do not copy the two stupas of a style reference.\nStyle: Minimal torn-paper collage with dry-brush, flat color planes and fibrous deckled edges. Simplify the ONE stupa into ivory and warm-gray paper blocks, ochre ringed spire, three tiny red arches, one short muted-blue ground strip. Maintain urn silhouette and stepped base."
+    },
+    {
+      "id": "10_B",
+      "subject": "蓝天白塔",
+      "style": "B",
+      "source_page": "https://www.pexels.com/photo/white-stupa-against-clear-blue-sky-37218381/",
+      "author": "Pexels User",
+      "reference": "assets/reference-originals/image_fa4bc15a.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent invariants: Preserve EXACTLY ONE white stupa: tall ringed golden spire, bulbous urn-shaped body, stepped square base and three red arched doors along the lowest front facade. Preserve frontal symmetry and staircase leading toward it. Omit tiny visitors, gold foreground vessels, weeds and other incidental surroundings. Do not copy the two stupas of a style reference.\nStyle: Sparse monoprint rubbing with broken ink, material abrasion and directional granular dissolution. Use indigo single-ink architecture rubbing: ringed spire, urn and three arches must remain legible, while only the lower stairs and ground break into sparse granular downward scatter. No vertical annotation line."
+    },
+    {
+      "id": "12_A",
+      "subject": "窗台咖啡杯",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/cup-of-coffee-on-windowsill-10558099/",
+      "author": "Merve Tülek",
+      "reference": "assets/reference-originals/image_73f7c266.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent invariants: Preserve EXACTLY ONE blue-and-white coffee cup on ONE polygonal saucer, cup handle on the RIGHT, visible brown coffee surface, and one oblique wooden window-sill strip rising toward the right behind the cup. Simplify the porcelain pattern. Remove the blurred outdoor buildings, green garden and reflections. No plants, flowers or architecture.\nStyle: Minimal torn-paper collage with dry-brush, flat color planes and fibrous deckled edges. Use cream and navy paper shapes for the cup and saucer, tiny dark-blue motifs, brown coffee ellipse and one ochre window-sill strip; subtle dry ink wear, flat collage, no photographic gloss."
+    },
+    {
+      "id": "12_B",
+      "subject": "窗台咖啡杯",
+      "style": "B",
+      "source_page": "https://www.pexels.com/photo/cup-of-coffee-on-windowsill-10558099/",
+      "author": "Merve Tülek",
+      "reference": "assets/reference-originals/image_fa4bc15a.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent invariants: Preserve EXACTLY ONE blue-and-white coffee cup on ONE polygonal saucer, cup handle on the RIGHT, visible brown coffee surface, and one oblique wooden window-sill strip rising toward the right behind the cup. Simplify the porcelain pattern. Remove the blurred outdoor buildings, green garden and reflections. No plants, flowers or architecture.\nStyle: Sparse monoprint rubbing with broken ink, material abrasion and directional granular dissolution. Use navy single-ink rubbing of the cup and polygonal saucer with simplified blue porcelain motifs. Crisp readable cup rim and right handle; saucer and window-sill edge fade out in sparse rubbed particles to lower left. Keep coffee as a flat dark value."
+    },
+    {
+      "id": "14_A",
+      "subject": "花篮自行车",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/a-vintage-bicycle-decorated-with-flowers-parked-by-a-window-10896650/",
+      "author": "Boys in Bristol Photography",
+      "reference": "assets/reference-originals/image_bebfaaad.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent invariants: Preserve EXACTLY ONE left-facing step-through bicycle, TWO full circular wheels with hubs aligned, a low curved frame connecting the wheels, saddle above rear wheel on the right, handlebar and ONE flower-filled front basket on the left. Preserve the flower garland trailing along the diagonal frame. Reduce spokes to a few functional lines. Remove cafe windows, chair, surrounding wall and pavement clutter. No rider.\nStyle: Minimal torn-paper collage with dry-brush, flat color planes and fibrous deckled edges. Use dusty pink paper strips for the bicycle frame, charcoal and muted ochre wheels, a muted rose basket, ivory/lilac flower scraps and sage leaves. Handmade flat shapes with torn edges; structural connections must make sense."
+    },
+    {
+      "id": "14_B",
+      "subject": "花篮自行车",
+      "style": "B",
+      "source_page": "https://www.pexels.com/photo/a-vintage-bicycle-decorated-with-flowers-parked-by-a-window-10896650/",
+      "author": "Boys in Bristol Photography",
+      "reference": "assets/reference-originals/image_857ac102.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent invariants: Preserve EXACTLY ONE left-facing step-through bicycle, TWO full circular wheels with hubs aligned, a low curved frame connecting the wheels, saddle above rear wheel on the right, handlebar and ONE flower-filled front basket on the left. Preserve the flower garland trailing along the diagonal frame. Reduce spokes to a few functional lines. Remove cafe windows, chair, surrounding wall and pavement clutter. No rider.\nStyle: Sparse monoprint rubbing with broken ink, material abrasion and directional granular dissolution. Use muted teal single-ink screenprint rubbing. Both wheels, hubs, frame joints, basket and saddle remain connected and readable; only peripheral flower edges and grounding marks fade to sparse dry-brush grain. No water waves or new landscape from the style reference."
+    },
+    {
+      "id": "02_A",
+      "subject": "岩山湖谷",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/scenic-alpine-landscape-with-mountain-lake-34056119/",
+      "author": "Eduardo Ortiz",
+      "reference": "assets/reference-originals/image_f707cfd3.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent and style specifics: Keep the rocky bowl-shaped valley, nearer left hillside and higher right ridgeline, and exactly one small dark lake slightly left of lower center. Discard individual stones and clouds. Reduce terrain to 5–7 broad charcoal, gray and muted olive torn planes, one small navy lake shape and a pale blue sky scrap.\nUse flat torn-paper collage and broad dry-brush color planes. Output no text of any sort; reference lower corners may contain watermarks, ignore them completely."
+    },
+    {
+      "id": "03_A",
+      "subject": "湖岸木屋",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/beautiful-landscape-of-a-mountain-lake-12699620/",
+      "author": "Dominik Perau",
+      "reference": "assets/reference-originals/image_74bf8c30.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent and style specifics: Keep the distant mountain ridge, dark forest strip, pale lake curving across the middle and seven visible wooden huts on the near meadow, including the partially clipped hut at left edge. Preserve largest front hut lower center, small distant hut to its upper left, two huts behind the large hut and one to right. Do not replace huts by a temple. Broad gray mountains, sage lake, olive meadow and small charcoal/ochre roofs. Keep layers simple.\nUse flat torn-paper collage and broad dry-brush color planes. Output no text of any sort; reference lower corners may contain watermarks, ignore them completely."
+    },
+    {
+      "id": "05_B",
+      "subject": "水边树叶",
+      "style": "B",
+      "source_page": "https://www.pexels.com/photo/tree-branch-and-water-10183244/",
+      "author": "Andrew Swarga",
+      "reference": "assets/reference-originals/image_0847db45.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent and style specifics: Keep dense leafy branches entering from the left, thin upright waterside reeds on the right and reflective water behind. Sparse olive-green ink rubbing. Simplify dense leaves and reed network; represent reflected light as paper gaps. Lower water ink breaks into sparse directional dry rubbings. No new flowers.\nUse broken monoprint ink, directional abrasion and restrained dissolution. Output no text of any sort; reference lower corners may contain watermarks, ignore them completely."
+    },
+    {
+      "id": "07_A",
+      "subject": "草地牛群",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/cows-on-pasture-18302415/",
+      "author": "Emmanuel Codden",
+      "reference": "assets/reference-originals/image_bc6cbfe2.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent and style specifics: Keep the large black-and-white cow front center looking toward camera, the smaller pale cow behind on the right, and the partly occluded THIRD cow at far left behind the main cow, visible as rump and tail. Do not turn the third partial cow into an extra fully visible cow. Keep correct leg connections, overlap and the frontal face. Use ivory/charcoal silhouettes with minimal patches and muted olive horizontal pasture strip; no sun, fence or other animals.\nUse flat torn-paper collage and broad dry-brush color planes. Output no text of any sort; reference lower corners may contain watermarks, ignore them completely."
+    },
+    {
+      "id": "08_A",
+      "subject": "池塘鱼群",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/fishes-in-the-pond-9997146/",
+      "author": "Elizaveta Mitenkova",
+      "reference": "assets/reference-originals/image_fcc2301d.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent and style specifics: Keep the specific koi grouping and swimming directions from photo: large long-finned white koi center, large dark koi just above-right, several orange and yellow fish around, including edge-clipped fish. Keep central overlap and distinct fish silhouettes; do not align all fish in parallel. Olive-green torn water patch; ivory, charcoal and restrained ochre/orange broad dry-brush fish shapes. Remove bubbles and reflections; do not fill entire page with green. Preserve visible fish rather than inventing additional fish.\nUse flat torn-paper collage and broad dry-brush color planes. Output no text of any sort; reference lower corners may contain watermarks, ignore them completely."
+    },
+    {
+      "id": "09_A",
+      "subject": "荒漠白塔",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/white-stupas-in-mongolian-desert-landscape-31446018/",
+      "author": "BYB BYB",
+      "reference": "assets/reference-originals/image_d9f4481c.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent and style specifics: Keep seven identifiable white stupa spires and bases in staggered rows, the largest stupa left front; preserve the stepped bases and partly hidden middle towers. There is an additional clipped white base at extreme right whose upper tower is outside the photograph: preserve as a clipped base only, do not invent its spire. Use ivory and gray paper blocks on ochre dry-brush desert ground, pale brown distant hill strip. No extra monuments, no red or blue tops copied from reference.\nUse flat torn-paper collage and broad dry-brush color planes. Output no text of any sort; reference lower corners may contain watermarks, ignore them completely."
+    },
+    {
+      "id": "11_A",
+      "subject": "桌面花瓶",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/vase-with-flowers-on-table-7084311/",
+      "author": "Lachlan Ross",
+      "reference": "assets/reference-originals/image_bebfaaad.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent and style specifics: Keep one squat white handled jug with handle on right, broad eucalyptus-like green leaves, drooping reddish seed/flower clusters on left and fine tall reddish stems rising at right. Remove table setting, chairs and wall pictures. Use ivory vessel cutout, sage-green leaf scraps, rust-red delicate silhouettes and one short ochre tabletop strip. No invented daisies, no decorative circle.\nUse flat torn-paper collage and broad dry-brush color planes. Output no text of any sort; reference lower corners may contain watermarks, ignore them completely."
+    },
+    {
+      "id": "13_A",
+      "subject": "雨窗咖啡",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/coffee-cup-on-a-windowsill-14257894/",
+      "author": "Ioana Motoc",
+      "reference": "assets/reference-originals/image_bebfaaad.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent and style specifics: Keep one ribbed glass coffee mug with handle right and a spoon leaning toward upper right, THREE orange maple leaves vertically arranged above the cup on the rainy window, and simple cream knitted blanket folds around the cup. Remove the candle jar and its label, other loose foreground leaves, curtains and exterior building details. Use muted ochre/rust leaf cutouts, a cream/taupe mug and blanket, a few sparse rain-dot impressions. Three overhead leaves remain individually countable. Do not add a sun.\nUse flat torn-paper collage and broad dry-brush color planes. Output no text of any sort; reference lower corners may contain watermarks, ignore them completely."
+    },
+    {
+      "id": "15_A",
+      "subject": "街边自行车",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/charming-street-scene-with-bicycles-and-flowers-37186965/",
+      "author": "zeynep",
+      "reference": "assets/reference-originals/image_74bf8c30.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent and style specifics: Focus on the row of bicycles along the right facade and white flowering window boxes. Preserve near clipped bicycle handlebar at lower right, more complete parked bicycle behind it and smaller distant bicycle near the corner. Use simplified cream/taupe facade planes, charcoal bicycle strokes and olive/ivory flowers. Preserve converging street perspective. Remove parked cars, street signs, cables, all letters and wall inscriptions. Do not copy the pastoral landscape from style reference.\nUse flat torn-paper collage and broad dry-brush color planes. Output no text of any sort; reference lower corners may contain watermarks, ignore them completely."
+    },
+    {
+      "id": "16_A",
+      "subject": "咖啡馆窗景",
+      "style": "A",
+      "source_page": "https://www.pexels.com/photo/cozy-cafe-window-with-bicycle-passing-by-34824140/",
+      "author": "Mehmet",
+      "reference": "assets/reference-originals/image_74bf8c30.jpg",
+      "first_prompt": "Use case: style-transfer. Create ONE standalone finished art print from IMAGE 1, the content photograph. IMAGE 2 is a composite reference: use ONLY ITS LOWER ARTWORK HALF as a style/material reference, not its upper photograph or its subject. Match its restrained handmade print language, broad warm ivory uncoated paper, restrained ink and abundant negative space. Output a portrait art print, approximately 2:3. Place the simplified artwork in the lower-middle area, with about 55–65% paper left blank overall. Do not render an original-photo panel, comparison grid, frame, mat, border, title, lettering, numbers, signature, logo, watermark or geography. Empty paper instead of text. Do not introduce actual new objects or decorative sun/circles. Preserve the specific subject and relations of image 1 while simplifying texture. No photorealistic patches, smooth gradients, glossy 3D paper, drop shadows, vector-perfect outlines or cartoon look.\nContent and style specifics: Keep the round-leaf potted plant on a small white round table on left, the white slatted chair angled at center-right, the partial orange pumpkin at right, and one diagonal foreground window frame. Explicitly omit the blurry passing cyclist and exterior building background. Cream and sage paper shapes, sparse charcoal structural accents and muted orange pumpkin, no new cups or flowers. Preserve table-chair-plant relative placement.\nUse flat torn-paper collage and broad dry-brush color planes. Output no text of any sort; reference lower corners may contain watermarks, ignore them completely."
+    }
+  ],
+  "revision_records": [
+    {
+      "id": "06_B_v2",
+      "parent": "06_B",
+      "prompt": "Edit this existing generated illustration with ONE localized correction only: the very faint white/gray pseudo-text or watermark-like marks along the bottom-right corner must be replaced by seamless matching blank warm ivory paper texture. This lettering was accidentally generated and is not desired content. Preserve all the actual illustrated subject, composition, colors, ink grain and dimensions exactly. Do not redraw or restyle the flowers or mountain. No text, symbols, logo, signature, watermark or new artwork anywhere. Return only the corrected standalone artwork.",
+      "input_role": "previous generated artwork; historical example only"
+    },
+    {
+      "id": "02_A_v2",
+      "parent": "02_A",
+      "prompt": "Edit this existing generated illustration with ONE localized correction only: the very faint white/gray pseudo-text or watermark-like marks along the bottom-right corner must be replaced by seamless matching blank warm ivory paper texture. This lettering was accidentally generated and is not desired content. Preserve all the actual illustrated subject, composition, colors, ink grain and dimensions exactly. Do not redraw or restyle the flowers or mountain. No text, symbols, logo, signature, watermark or new artwork anywhere. Return only the corrected standalone artwork.",
+      "input_role": "previous generated artwork; historical example only"
+    }
+  ],
+  "fresh_revision": {
+    "id": "02_A_v3",
+    "parent": "02_A",
+    "prompt": "Use case: style-transfer. Use the attached photograph as content input. Make a standalone minimal torn-paper collage on warm ivory uncoated fibrous paper. Portrait 2:3. Depict the bowl-shaped rocky valley, the taller near hillside on left, long far ridge on right and exactly one small dark lake below center-left. Condense the landscape into 5–7 large rough-edged olive, charcoal, gray paper planes and one small blue scrap representing sky. Abundant blank paper above, composition in lower half, weathered print ink, dry-brush edges. Retain main terrain arrangement of this specific photo, not a generic pointed mountain. No photographic rock texture, no glossy lighting or dimensional shadows, no text, no lettering, no numbers, no watermark, no logo or signature anywhere; bottom corners contain nothing but paper. Do not depict the input photograph separately.",
+    "input_role": "original content photograph only; no style reference image",
+    "source_page": "https://www.pexels.com/photo/scenic-alpine-landscape-with-mountain-lake-34056119/"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "照片艺术化与上下拼接"
+  short_description: "参照样图生成拼贴或拓印效果，按原图尺寸上下拼接并逐张评价"
+  default_prompt: "请使用 $photo-print-pairs，把我提供的照片生成参考风格，上方原图、下方效果图，保存到图片/生成。"

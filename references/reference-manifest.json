@@ -1,0 +1,171 @@
+[
+  {
+    "id": "01",
+    "title": "青色枝花拓印",
+    "file": "assets/reference-originals/image_0847db45.jpg",
+    "dimensions": [
+      1080,
+      1451
+    ],
+    "sha256": "9f4a21b085d3879775a144ecfefef90e0677145291d2c6112bf84fd5d259cddf",
+    "family": "B",
+    "role": "user-supplied full paired reference; only lower artwork supplies style",
+    "source": "User-provided reference image collection"
+  },
+  {
+    "id": "02",
+    "title": "黑白蓝山体拼贴",
+    "file": "assets/reference-originals/image_11c7098e.jpg",
+    "dimensions": [
+      1080,
+      1620
+    ],
+    "sha256": "5c21c2ae2078879fa0434e1cc81283c17fe0776c780b71142c5ca0f9f3ca623c",
+    "family": "A",
+    "role": "user-supplied full paired reference; only lower artwork supplies style",
+    "source": "User-provided reference image collection"
+  },
+  {
+    "id": "03",
+    "title": "紫花旋流拓印",
+    "file": "assets/reference-originals/image_3aefec43.jpg",
+    "dimensions": [
+      1080,
+      1451
+    ],
+    "sha256": "67bf512bf3bd1d35fff87d0fbfa3661171c23d76c2a8c8cc0e9a00731f502881",
+    "family": "B",
+    "role": "user-supplied full paired reference; only lower artwork supplies style",
+    "source": "User-provided reference image collection"
+  },
+  {
+    "id": "04",
+    "title": "淡紫花簇纸片拼贴",
+    "file": "assets/reference-originals/image_73f7c266.jpg",
+    "dimensions": [
+      1080,
+      1620
+    ],
+    "sha256": "546c6a35ceedaeae635be17b075f06a5d75c7aee0a4a7585089a36db01b1066c",
+    "family": "A",
+    "role": "user-supplied full paired reference; only lower artwork supplies style",
+    "source": "User-provided reference image collection"
+  },
+  {
+    "id": "05",
+    "title": "山野建筑拼贴",
+    "file": "assets/reference-originals/image_74bf8c30.jpg",
+    "dimensions": [
+      1080,
+      1620
+    ],
+    "sha256": "d17b37cf95b58a24821624653209eab01aab24c87744aeb8fd7a05cd052ed18c",
+    "family": "A",
+    "role": "user-supplied full paired reference; only lower artwork supplies style",
+    "source": "User-provided reference image collection"
+  },
+  {
+    "id": "06",
+    "title": "枝条与水流颗粒版画",
+    "file": "assets/reference-originals/image_857ac102.jpg",
+    "dimensions": [
+      1080,
+      1451
+    ],
+    "sha256": "ea294657a9d4f49bb3c7b4726ac8efd9194012bfde5a61b6e1c93282ad01519b",
+    "family": "B",
+    "role": "user-supplied full paired reference; only lower artwork supplies style",
+    "source": "User-provided reference image collection"
+  },
+  {
+    "id": "07",
+    "title": "青池宽笔触拼贴",
+    "file": "assets/reference-originals/image_bba19567.jpg",
+    "dimensions": [
+      1080,
+      1620
+    ],
+    "sha256": "fe3e85d0b67fb1f23b117dd5c677986bdce8855015f62b55cb0c5f24fc4a9335",
+    "family": "A",
+    "role": "user-supplied full paired reference; only lower artwork supplies style",
+    "source": "User-provided reference image collection"
+  },
+  {
+    "id": "08",
+    "title": "牛群剪影版画",
+    "file": "assets/reference-originals/image_bc6cbfe2.jpg",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "sha256": "e7a8616cf6fabc11e4872ad39ecf95b107b8f3f624596348686c69e055812cc3",
+    "family": "A",
+    "role": "user-supplied full paired reference; only lower artwork supplies style",
+    "source": "User-provided reference image collection"
+  },
+  {
+    "id": "09",
+    "title": "花束抽象拼贴",
+    "file": "assets/reference-originals/image_bebfaaad.jpg",
+    "dimensions": [
+      1080,
+      1620
+    ],
+    "sha256": "cf73bbed4fed3250fed19b2ced1901505666117c57d54dc197c933f0000457db",
+    "family": "A",
+    "role": "user-supplied full paired reference; only lower artwork supplies style",
+    "source": "User-provided reference image collection"
+  },
+  {
+    "id": "10",
+    "title": "双塔几何拼贴",
+    "file": "assets/reference-originals/image_d9f4481c.jpg",
+    "dimensions": [
+      1080,
+      1620
+    ],
+    "sha256": "5ce649404a8fd335e149f14a03b9616b1f6f09d55c0f22ae198ae9ec0e0bf16e",
+    "family": "A",
+    "role": "user-supplied full paired reference; only lower artwork supplies style",
+    "source": "User-provided reference image collection"
+  },
+  {
+    "id": "11",
+    "title": "山谷分层撕纸",
+    "file": "assets/reference-originals/image_f707cfd3.jpg",
+    "dimensions": [
+      1080,
+      1620
+    ],
+    "sha256": "4ac7949e5f28df4c44f4d96577527a312d9166a104008596101a9219f55b7e96",
+    "family": "A",
+    "role": "user-supplied full paired reference; only lower artwork supplies style",
+    "source": "User-provided reference image collection"
+  },
+  {
+    "id": "12",
+    "title": "蓝色单塔颗粒拓印",
+    "file": "assets/reference-originals/image_fa4bc15a.jpg",
+    "dimensions": [
+      1080,
+      1451
+    ],
+    "sha256": "f63f337dd5a707a63521fab794075c326ae7c85d7f855f96b95811ccb763e7a8",
+    "family": "B",
+    "role": "user-supplied full paired reference; only lower artwork supplies style",
+    "source": "User-provided reference image collection"
+  },
+  {
+    "id": "13",
+    "title": "鱼群干刷拼贴",
+    "file": "assets/reference-originals/image_fcc2301d.jpg",
+    "dimensions": [
+      1080,
+      1620
+    ],
+    "sha256": "283f9fe8d2c23178b43ef7bd6e7493181bb5207ab3912f25c9407cfe98b3f9e4",
+    "family": "A",
+    "role": "user-supplied full paired reference; only lower artwork supplies style",
+    "source": "User-provided reference image collection"
+  }
+]
