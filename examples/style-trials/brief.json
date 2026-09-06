@@ -1,0 +1,24 @@
+{
+  "subject_type": "botanical",
+  "subject": "Two main pendant lilac flower clusters connected to thin branches and green leaves",
+  "protected": [
+    "Keep both main flower clusters, the left one higher and the right one lower",
+    "Keep the dangling brown stems and small buds below both clusters",
+    "Keep the branching connection and the leaves above the flowers"
+  ],
+  "simplify": [
+    "Remove the dark out-of-focus background and orange bokeh spots",
+    "Merge individual petal shading and leaf veins; retain the two main cluster silhouettes",
+    "The small out-of-focus flower trace between the clusters may be omitted"
+  ],
+  "geometry": [
+    "The left flowering stem is almost vertical",
+    "The right branch slopes down to the right; its flower cluster hangs lower"
+  ],
+  "palette": [
+    "muted lilac",
+    "soft olive green",
+    "warm brown"
+  ],
+  "composition": "A loose connected branch occupies the middle of the paper, with more air above and around it. Preserve the left-high/right-low relationship. Leave visible open paper between the clusters."
+}

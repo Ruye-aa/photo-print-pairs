@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "scope": "source_metadata_only",
+  "rights": "Media retention does not establish permission to redistribute.",
+  "summary": {
+    "sources": 6,
+    "media_entries": 48,
+    "saved_entries": 48,
+    "failed_entries": 0,
+    "unique_files": 47,
+    "duplicate_entries": 1,
+    "saved_by_capture_method": {
+      "original_download": 48
+    }
+  },
+  "sources": [
+    {
+      "source_id": "official-yijian-dongman-zhuanhui",
+      "url": "https://wiki.pixcakeai.com/ai-toolbox/yingxiang-baibaoxiang/yijian-dongman-zhuanhui",
+      "title": "一键动漫转绘｜治愈系动漫风格化｜像素蛋糕 AI 工具箱",
+      "author": "像素蛋糕官方文档",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 733872,
+          "sha256": "7ae750cf58575b09334b8dffa327a1b0cd0ff45d68105a212b0df525c925d8f9",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 2,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 612469,
+          "sha256": "b8dcdea30499e2fd9aa8c454347bdf2b658b0183efcbc7f421e1fd51f0bde134",
+          "dimensions": [
+            792,
+            444
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 3,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 2307001,
+          "sha256": "90e91bd07b1194cccc786aa2d8c41f7ff0d95a08844ac55745b9d3569c513380",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 4,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1000158,
+          "sha256": "124cdb21557c4cee188e8ba18b9115ff956dab9bb8d315ca93456041dbacb4b3",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 5,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 794042,
+          "sha256": "07b6210cf3d30fa93b4986f44f07d12cef5b6c9a4bc5f0ea5355d41a3edb59e9",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 6,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1107387,
+          "sha256": "ae80f017b8d1ebefaee2a9cfdd06a306c3e91d02f64f54e0e4c77a943b5127a1",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 7,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 939362,
+          "sha256": "02797f95bf12667dd3e992d6cd074b00803ee4a1c59dda01c3556831948e9a1c",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 8,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1072794,
+          "sha256": "4b2f3079b8c9abff42fa71ba8520c6ddaab446bef3705302fb6350b56a718825",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        }
+      ]
+    },
+    {
+      "source_id": "official-citypop-zhuanhui",
+      "url": "https://wiki.pixcakeai.com/ai-toolbox/yingxiang-baibaoxiang/citypop-zhuanhui",
+      "title": "CITYPOP转绘｜City Pop复古风格｜像素蛋糕 AI 工具箱",
+      "author": "像素蛋糕官方文档",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 832575,
+          "sha256": "63f846988d0e620163f1e16a48cf6d78656121df7ed642fcc04f31b3a6fae68f",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 2,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 687840,
+          "sha256": "801ccbd26cc718efc81a86c5f8854da99bf0efbc3245f73d7df0962df4d9b46c",
+          "dimensions": [
+            792,
+            444
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 3,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1746886,
+          "sha256": "aa77dfa1143eb162088722a24aa90a0d88416b741291fccec2cbd8be310aac4d",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 4,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1007053,
+          "sha256": "a40cd6d77f2ad0ac16deb71c66ba9789143de2c290bedde5dd99e73e381aae01",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 5,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1275936,
+          "sha256": "e7eeb4daad1ef565eb480a8d207d4c3707376c2cce106f1b22aad2f7f30a5487",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 6,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 722489,
+          "sha256": "dab370dc74d467788b3a43190409efd4a9c0c76c52367a44738f5b6faa3c9564",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 7,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1259865,
+          "sha256": "c300333baacd73c65c08cad4d6f64f430f155933af7994802d9a2732bb3bd557",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 8,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1119211,
+          "sha256": "ce3183425e0ac0e2debe50384690091f345fd09317b7cdee788540a88f9207ee",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        }
+      ]
+    },
+    {
+      "source_id": "official-yijian-maorong-zhuanhui",
+      "url": "https://wiki.pixcakeai.com/ai-toolbox/yingxiang-baibaoxiang/yijian-maorong-zhuanhui",
+      "title": "一键毛绒转绘｜针织毛绒风格化｜像素蛋糕 AI 工具箱",
+      "author": "像素蛋糕官方文档",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 880735,
+          "sha256": "acc32f4937ebcf4bc6d862fcbbb115ebc2ebcb3b594545f2ec34c6ee3354408a",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 2,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 548212,
+          "sha256": "7e54210917c1aea8ba369375cb31cabd38f51f486f3bf9514c16963838abd996",
+          "dimensions": [
+            792,
+            444
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 3,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 927064,
+          "sha256": "360ca8b1316a8c69162dbf497f40203b4460b737c4c9a9720c35a636a1ed2946",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 4,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 865264,
+          "sha256": "540f40e0949075ac26592541dc56627b85c579da4280e549a0c6518fc06b41d2",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 5,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 710921,
+          "sha256": "fc5f5f5092d2581f780bc509ed7fbdbb1a48a125b7f1e949bb0b6a88bdb07bcc",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 6,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 812707,
+          "sha256": "d94cfbb3f63de99b5d87de6079050efbab2340dc58be3c4b4a3efae557f5502a",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 7,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1047830,
+          "sha256": "138b182de1fd792faf5c1f8cb372c50f3dcc1631d45d5e34083e5cce31495804",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 8,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 404785,
+          "sha256": "8cd2ba983d6ff09a7df6bc47f44b7e17356ec0a83186af4d4b95e3211c8481e1",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        }
+      ]
+    },
+    {
+      "source_id": "official-yijian-jimu-zhuanhui",
+      "url": "https://wiki.pixcakeai.com/ai-toolbox/yingxiang-baibaoxiang/yijian-jimu-zhuanhui",
+      "title": "一键积木转绘｜乐高积木风格化｜像素蛋糕 AI 工具箱",
+      "author": "像素蛋糕官方文档",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 790293,
+          "sha256": "d2ebb90cc20a6a7e634e4da26d642a41808d75edc4a6163bce4babe3e5dc0275",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 2,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 531998,
+          "sha256": "b5316bf7b019361be8ed156e24648c22fafc11168baf68ea06d8245186e0bdb2",
+          "dimensions": [
+            792,
+            444
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 3,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1284582,
+          "sha256": "a46b90b31519e252da7f0b13c07837ea42e3ea8036e29d4430ed6c34d1a32bf1",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 4,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 835193,
+          "sha256": "c97c3d5bef6faa2bf7a3583b6d24028638d84f8658f3e414a1f9fb956f34ed13",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 5,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 825304,
+          "sha256": "c386566f7e073252b95cb186f74a98769e86b4fca66d6621b6c790822489daff",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 6,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 687516,
+          "sha256": "18c36a2af0f93b0bed1340074dfb3c571f29ed70ec63fd810d9f3e68d3340cf7",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 7,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 871936,
+          "sha256": "27bf55e671b832c6716a8352b52ea39dea356c5d2c3351658d1c02ee530d87e9",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 8,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1082425,
+          "sha256": "1f306f0ef0694c89406078d86b79d6b7549d3a103dcea600ae52485f9fb21e50",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        }
+      ]
+    },
+    {
+      "source_id": "official-rishi-qingxin-jiaopian",
+      "url": "https://wiki.pixcakeai.com/ai-toolbox/yingxiang-baibaoxiang/rishi-qingxin-jiaopian",
+      "title": "日式清新胶片｜日系胶片调色｜像素蛋糕 AI 工具箱",
+      "author": "像素蛋糕官方文档",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 637605,
+          "sha256": "937cce68dbf599d4178b128a50d4ea8875788fdf069f33291d012a592c754a50",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 2,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 609917,
+          "sha256": "d850e644dea2f3868daa6eb0deef35885e55784414fa9cd811ca7467d54522a5",
+          "dimensions": [
+            792,
+            444
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 3,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1992551,
+          "sha256": "c894f39035dec3b1c766070edea0406253c1d8e4b157ced5b1579db8caf9f4b2",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 4,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 916371,
+          "sha256": "d41825901ce45b3bc12da16b387bde3e405784bf96a9256f336da62b08bd0ef1",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 5,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1054561,
+          "sha256": "660797af0ce8771e70f06fc805a68d7eae4943a28890e7f7c9b93f94e7dd1e66",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 6,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 946312,
+          "sha256": "53bbee2dc327c7da61c4cd31a4b489500e2b1743b33859f18da870943b2d4991",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 7,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 1020991,
+          "sha256": "918a03443b3e0c8cc61d6b1b0e3b58d9edf3edf41b5014edcca746693af398af",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 8,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 640239,
+          "sha256": "26376f2e7cc80c5039ba34fc9eeef510253a956a80dd731376dcf3d663d04834",
+          "dimensions": [
+            648,
+            884
+          ],
+          "verification": "image_decoded"
+        }
+      ]
+    },
+    {
+      "source_id": "official-yijian-yuanshan",
+      "url": "https://wiki.pixcakeai.com/ai-toolbox/huasheng-guofeng/yijian-yuanshan",
+      "title": "一键远山｜水墨远山背景｜像素蛋糕 AI 工具箱",
+      "author": "像素蛋糕官方文档",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 249128,
+          "sha256": "13b78149ff7000e5b1179a15f2f226d2aa3ff330d12ccabfcc17e9a56e2e9d5b",
+          "dimensions": [
+            648,
+            864
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 2,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 252262,
+          "sha256": "33f52d5c53097d29ca58cc13d76db4b6fe5e542ec28d13e0e93e6b2a24b8cccb",
+          "dimensions": [
+            792,
+            444
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 3,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 212674,
+          "sha256": "aeff85c7fd8c0b5f49b63db9047e5ce619361fbbc78f1d4e84f0f40c95e6ba78",
+          "dimensions": [
+            1024,
+            1920
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 4,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 212674,
+          "sha256": "aeff85c7fd8c0b5f49b63db9047e5ce619361fbbc78f1d4e84f0f40c95e6ba78",
+          "dimensions": [
+            1024,
+            1920
+          ],
+          "verification": "image_decoded",
+          "duplicate_of": "official-yijian-yuanshan:3"
+        },
+        {
+          "index": 5,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 224167,
+          "sha256": "4c8500e801a7db45050c2a47dec25df0df24b3f022cc0da14ea2c212af52f5cb",
+          "dimensions": [
+            1024,
+            1920
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 6,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 264025,
+          "sha256": "49870358980beb49e27527f5573d85e7ea860221ae1e1dd618fbb406c71a47dc",
+          "dimensions": [
+            1024,
+            1920
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 7,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 334446,
+          "sha256": "513b2e94a7aa84a3168f20ac8855b79fb14771577237944a50de19a726df9693",
+          "dimensions": [
+            1024,
+            1920
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 8,
+          "capture_method": "original_download",
+          "status": "saved",
+          "bytes": 344746,
+          "sha256": "111ccc8de0f3a2eeab3becaf76e6388265554780998834a2a808196d98ef066d",
+          "dimensions": [
+            1024,
+            1920
+          ],
+          "verification": "image_decoded"
+        }
+      ]
+    }
+  ],
+  "platform": "pixcake_official_website",
+  "collected_on": "2026-09-06",
+  "included_in_xiaohongshu_counts": false
+}

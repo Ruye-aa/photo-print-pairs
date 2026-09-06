@@ -9,7 +9,9 @@ from pathlib import Path
 import shutil
 import tempfile
 
-PAYLOAD = ("SKILL.md", "agents", "assets", "references", "scripts/compose_pair.py", "requirements.txt")
+PAYLOAD = ("SKILL.md", "agents", "assets", "references", "scripts/compose_pair.py",
+           "scripts/plan_artwork.py", "scripts/review_gallery.py",
+           "scripts/prepare_extended.py", "scripts/research_media.py", "requirements.txt")
 
 
 def file_map(root):

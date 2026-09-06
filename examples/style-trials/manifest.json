@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-06",
+  "status": "assistant-reviewed candidates; not user-accepted or a stability benchmark",
+  "generation_mode": "built-in image_gen",
+  "model_version": null,
+  "seed": null,
+  "cost": null,
+  "unknown_fields_reason": "The generation tool did not expose these fields.",
+  "source": {
+    "file": "sources/purple-flowers.png",
+    "sha256": "6a0e7fedf625e70825114466da4304c5361609ac34911dcefd3eb20bebf526ca",
+    "dimensions": [
+      1067,
+      1600
+    ],
+    "extracted_from": "../generated-pairs/06_A_紫色花枝_1067x3200.png",
+    "extraction_box": [
+      0,
+      0,
+      1067,
+      1600
+    ],
+    "source_page": "https://www.pexels.com/photo/purple-flowers-on-a-branch-18184147/",
+    "author": "Alejandra Montenegro",
+    "license_page": "https://www.pexels.com/license/"
+  },
+  "results": [
+    {
+      "style": "C",
+      "name": "平面抽象",
+      "strength": "balanced",
+      "input_files": [
+        "sources/purple-flowers.png"
+      ],
+      "reference_files": [],
+      "prompt": "Create one standalone artwork from the supplied content photograph.\n\nDo not generate a photograph panel, comparison layout, caption area, or surrounding card.\n\nArtwork aspect ratio: 1067:1600 after applying the photograph's EXIF orientation. Do not stretch the subject.\n\nSubject: Two main pendant lilac flower clusters connected to thin branches and green leaves\n\nPreserve every listed visible subject, its count when specified, position, direction, and occlusion. Do not invent hidden detail.\n\nProtected content:\n- Keep both main flower clusters, the left one higher and the right one lower\n- Keep the dangling brown stems and small buds below both clusters\n- Keep the branching connection and the leaves above the flowers\n\nSpatial relationships:\n- The left flowering stem is almost vertical\n- The right branch slopes down to the right; its flower cluster hangs lower\n\nPermitted simplification only:\n- Remove the dark out-of-focus background and orange bokeh spots\n- Merge individual petal shading and leaf veins; retain the two main cluster silhouettes\n- The small out-of-focus flower trace between the clusters may be omitted\n\nComposition: A loose connected branch occupies the middle of the paper, with more air above and around it. Preserve the left-high/right-low relationship. Leave visible open paper between the clusters.\n\nUse one rendering system throughout: clean opaque shapes on smooth ivory.\n\nStyle rules:\n- Reconstruct the visible scene using calm opaque planes and clear relationships between foreground, background, and empty space.\n- Use smooth ivory as the default surface, with clean flat color boundaries and simplified geometry.\n- Create abstraction through shape, spacing, overlap, and color, not through simulated material texture.\n\nPalette: muted lilac; soft olive green; warm brown.\n\nBase paper color: #F4F0E8. Keep this surface consistent in the empty areas.\n\nAbstraction strength: Merge the permitted minor detail into larger shapes while keeping the protected structure clear.\n\nExclude: paper fibers; grain; brush texture; ink distress; torn edges; collage layering; photographic detail.\n\nNo lettering, numbers, pseudo-text, signatures, logos, watermarks, extra objects, or decorative symbols. Leave paper empty where such marks might appear.",
+      "original_plan_sha256": "f0f1ff850d01eef6134d6b27855936f7a8a48e90d7e4284683256f6a520a01bb",
+      "artwork": "artwork/C.png",
+      "artwork_sha256": "c52850c58f616ab650338008487bb409aef7a90c802c7b07599d0934c1597d79",
+      "generated_dimensions": [
+        1023,
+        1537
+      ],
+      "pair": "C-pair.png",
+      "pair_sha256": "aca81e4ee5b31bcc568955a1ecaf92dd1faa3da4d67b1e2409ab62c9fc3e0b50",
+      "output_dimensions": [
+        1067,
+        3200
+      ],
+      "top_source_rgb_pixels_equal": true,
+      "exported_artwork": "C-pair_artwork.png",
+      "exported_artwork_sha256": "b07e3e3862fe63e44b947bdb1c9a4deaed12d27c7d5b9f86d745a23fb899c69d",
+      "paper_color": "#F4F0E8",
+      "evaluation": {
+        "subject": "两串主要花簇、左高右低关系、下垂花梗和上方叶片可辨；并非逐瓣对应。",
+        "style": "底面较平整，花叶以不透明色面表现；仍保留较多花瓣轮廓，偏具象的平面插画，后续可验证更大胆概括。"
+      },
+      "text_or_added_objects_observed": false,
+      "decision": "candidate"
+    },
+    {
+      "style": "D",
+      "name": "限色丝网印刷",
+      "strength": "balanced",
+      "input_files": [
+        "sources/purple-flowers.png"
+      ],
+      "reference_files": [],
+      "prompt": "Create one standalone artwork from the supplied content photograph.\n\nDo not generate a photograph panel, comparison layout, caption area, or surrounding card.\n\nArtwork aspect ratio: 1067:1600 after applying the photograph's EXIF orientation. Do not stretch the subject.\n\nSubject: Two main pendant lilac flower clusters connected to thin branches and green leaves\n\nPreserve every listed visible subject, its count when specified, position, direction, and occlusion. Do not invent hidden detail.\n\nProtected content:\n- Keep both main flower clusters, the left one higher and the right one lower\n- Keep the dangling brown stems and small buds below both clusters\n- Keep the branching connection and the leaves above the flowers\n\nSpatial relationships:\n- The left flowering stem is almost vertical\n- The right branch slopes down to the right; its flower cluster hangs lower\n\nPermitted simplification only:\n- Remove the dark out-of-focus background and orange bokeh spots\n- Merge individual petal shading and leaf veins; retain the two main cluster silhouettes\n- The small out-of-focus flower trace between the clusters may be omitted\n\nComposition: A loose connected branch occupies the middle of the paper, with more air above and around it. Preserve the left-high/right-low relationship. Leave visible open paper between the clusters.\n\nUse one rendering system throughout: a unified screen-printed ink surface.\n\nStyle rules:\n- Redraw every part of the scene within one screen-print process using a small shared set of opaque inks.\n- Use broad ink shapes and deliberate overprint intersections where the source forms overlap.\n- Allow restrained mesh grain and small imperfect ink boundaries consistently across the image, including formerly photographic areas.\n- Keep any registration variation subtle enough to preserve all protected structures.\n\nPalette: muted lilac; soft olive green; warm brown.\n\nBase paper color: #EEE8DA. Keep this surface consistent in the empty areas.\n\nAbstraction strength: Merge the permitted minor detail into larger shapes while keeping the protected structure clear.\n\nExclude: photo-filter overlays; photographic patches; mixed unrelated rendering materials; torn-paper collage; airbrush gradients; heavy offset that duplicates subjects.\n\nNo lettering, numbers, pseudo-text, signatures, logos, watermarks, extra objects, or decorative symbols. Leave paper empty where such marks might appear.",
+      "original_plan_sha256": "02051c793455fcee8a263b2f12af3a1ff573dcbaef72303a9df8b92f55113124",
+      "artwork": "artwork/D.png",
+      "artwork_sha256": "0d67eb8591875c36753a07ae682c477bb9dfe2a02b79038cc05f79201215e34b",
+      "generated_dimensions": [
+        1024,
+        1536
+      ],
+      "pair": "D-pair.png",
+      "pair_sha256": "9f4b57ba2f40be92d79b71b509b86d1c3b6925e918d9932fc530b9a9773750eb",
+      "output_dimensions": [
+        1067,
+        3200
+      ],
+      "top_source_rgb_pixels_equal": true,
+      "exported_artwork": "D-pair_artwork.png",
+      "exported_artwork_sha256": "c86421670dfbb0c06a1ae793aa24aefea105109bb820bf2194c150a38ac23e0f",
+      "paper_color": "#EEE8DA",
+      "evaluation": {
+        "subject": "两串主要花簇及前后叶片关系保留；细芽和枝条有所概括。",
+        "style": "花叶与枝条采用一致的平面印色和细碎掉墨，无撕纸立体感；套色重叠表现较弱。"
+      },
+      "text_or_added_objects_observed": false,
+      "decision": "candidate"
+    },
+    {
+      "style": "E",
+      "name": "通透插画",
+      "strength": "balanced",
+      "input_files": [
+        "sources/purple-flowers.png"
+      ],
+      "reference_files": [],
+      "prompt": "Create one standalone artwork from the supplied content photograph.\n\nDo not generate a photograph panel, comparison layout, caption area, or surrounding card.\n\nArtwork aspect ratio: 1067:1600 after applying the photograph's EXIF orientation. Do not stretch the subject.\n\nSubject: Two main pendant lilac flower clusters connected to thin branches and green leaves\n\nPreserve every listed visible subject, its count when specified, position, direction, and occlusion. Do not invent hidden detail.\n\nProtected content:\n- Keep both main flower clusters, the left one higher and the right one lower\n- Keep the dangling brown stems and small buds below both clusters\n- Keep the branching connection and the leaves above the flowers\n\nSpatial relationships:\n- The left flowering stem is almost vertical\n- The right branch slopes down to the right; its flower cluster hangs lower\n\nPermitted simplification only:\n- Remove the dark out-of-focus background and orange bokeh spots\n- Merge individual petal shading and leaf veins; retain the two main cluster silhouettes\n- The small out-of-focus flower trace between the clusters may be omitted\n\nComposition: A loose connected branch occupies the middle of the paper, with more air above and around it. Preserve the left-high/right-low relationship. Leave visible open paper between the clusters.\n\nUse one rendering system throughout: light translucent color washes.\n\nStyle rules:\n- Redraw the photograph as an airy illustration using translucent color areas and open breathing room between forms.\n- Use selected crisp structural accents with softer secondary boundaries; make the paper visible through the lighter color areas.\n- Simplify surface detail into overlapping color washes while keeping the protected geometry and recognizable subject.\n\nPalette: muted lilac; soft olive green; warm brown.\n\nBase paper color: #EEE8DA. Keep this surface consistent in the empty areas.\n\nAbstraction strength: Merge the permitted minor detail into larger shapes while keeping the protected structure clear.\n\nExclude: a watercolor filter on a photograph; photographic patches; heavy outlines; dense ink grain; torn-paper edges; opaque blocks covering all open space.\n\nNo lettering, numbers, pseudo-text, signatures, logos, watermarks, extra objects, or decorative symbols. Leave paper empty where such marks might appear.",
+      "original_plan_sha256": "925f81221d71cb459aa0910a3db0949278d6b104f46a4c796df8d0c011b7bc14",
+      "artwork": "artwork/E.png",
+      "artwork_sha256": "1f6c2255a91f31fefd5b6e23d0feaaddd874f56561cf7ea80f3e4161cc9b4cd9",
+      "generated_dimensions": [
+        1024,
+        1536
+      ],
+      "pair": "E-pair.png",
+      "pair_sha256": "65128434ed4c9c5eca4f334ab2e5ad57dd2e41f5e5b3a2e36083213e111d134a",
+      "output_dimensions": [
+        1067,
+        3200
+      ],
+      "top_source_rgb_pixels_equal": true,
+      "exported_artwork": "E-pair_artwork.png",
+      "exported_artwork_sha256": "636210ab8c4194bac0b281459b9b2a999b285ccb4d12f236b03057837eaf7591",
+      "paper_color": "#EEE8DA",
+      "evaluation": {
+        "subject": "两串主要花簇和下垂方向保留，轮廓清楚；花瓣形态经过重绘。",
+        "style": "色层较轻、边缘柔和，具有水彩式轻透插画观感；叶片内部仍较细致。"
+      },
+      "text_or_added_objects_observed": false,
+      "decision": "candidate"
+    }
+  ]
+}

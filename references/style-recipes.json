@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "styles": {
+    "A": {
+      "name": "撕纸拼贴 / 干刷版画",
+      "material": "flat torn-paper shapes with dry ink",
+      "rules": [
+        "Rebuild the scene as broad, flat paper shapes, using the permitted simplifications to merge fine detail.",
+        "Use uneven fibrous boundaries, restrained dry-brush gaps, and exposed paper within a coherent shallow print surface.",
+        "Let the larger shapes and empty paper carry the composition; retain the distinctive protected silhouettes."
+      ],
+      "avoid": ["photographic fragments", "sculpted or raised paper", "drop shadows", "uniform digital noise"]
+    },
+    "B": {
+      "name": "颗粒拓印 / 流动消散",
+      "material": "sparse rubbing marks and broken ink",
+      "rules": [
+        "Translate the scene into a sparse rubbing with irregular ink deposits and areas of untouched paper.",
+        "Keep protected structures readable while secondary boundaries lose ink in the stated flow direction.",
+        "Use the palette as restrained print inks; the grain must follow the forms and become sparser toward open paper."
+      ],
+      "avoid": ["evenly scattered digital noise", "glowing particles", "smoke", "explosive debris", "vortices that hide the subject"]
+    },
+    "C": {
+      "name": "平面抽象",
+      "material": "clean opaque shapes on smooth ivory",
+      "rules": [
+        "Reconstruct the visible scene using calm opaque planes and clear relationships between foreground, background, and empty space.",
+        "Use smooth ivory as the default surface, with clean flat color boundaries and simplified geometry.",
+        "Create abstraction through shape, spacing, overlap, and color, not through simulated material texture."
+      ],
+      "avoid": ["paper fibers", "grain", "brush texture", "ink distress", "torn edges", "collage layering", "photographic detail"]
+    },
+    "D": {
+      "name": "限色丝网印刷",
+      "material": "a unified screen-printed ink surface",
+      "rules": [
+        "Redraw every part of the scene within one screen-print process using a small shared set of opaque inks.",
+        "Use broad ink shapes and deliberate overprint intersections where the source forms overlap.",
+        "Allow restrained mesh grain and small imperfect ink boundaries consistently across the image, including formerly photographic areas.",
+        "Keep any registration variation subtle enough to preserve all protected structures."
+      ],
+      "avoid": ["photo-filter overlays", "photographic patches", "mixed unrelated rendering materials", "torn-paper collage", "airbrush gradients", "heavy offset that duplicates subjects"]
+    },
+    "E": {
+      "name": "通透插画",
+      "material": "light translucent color washes",
+      "rules": [
+        "Redraw the photograph as an airy illustration using translucent color areas and open breathing room between forms.",
+        "Use selected crisp structural accents with softer secondary boundaries; make the paper visible through the lighter color areas.",
+        "Simplify surface detail into overlapping color washes while keeping the protected geometry and recognizable subject."
+      ],
+      "avoid": ["a watercolor filter on a photograph", "photographic patches", "heavy outlines", "dense ink grain", "torn-paper edges", "opaque blocks covering all open space"]
+    }
+  }
+}

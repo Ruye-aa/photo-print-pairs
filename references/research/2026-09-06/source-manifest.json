@@ -1,0 +1,1431 @@
+{
+  "schema_version": 1,
+  "scope": "source_metadata_only",
+  "rights": "Media retention does not establish permission to redistribute.",
+  "summary": {
+    "sources": 9,
+    "media_entries": 98,
+    "saved_entries": 98,
+    "failed_entries": 0,
+    "copied_files": 6,
+    "reused_files": 92,
+    "duplicate_entries": 0,
+    "unique_files": 98,
+    "saved_by_capture_method": {
+      "original_download": 65,
+      "video_download": 3,
+      "video_frame": 30
+    }
+  },
+  "sources": [
+    {
+      "source_id": "6a9d7b59000000002803526b",
+      "url": "https://www.xiaohongshu.com/explore/6a9d7b59000000002803526b",
+      "title": "这个特效的美商恐怕在我之上|蜡笔画🎨",
+      "author": "邓肥肥",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "original_download",
+          "page": 1,
+          "status": "saved",
+          "bytes": 186644,
+          "sha256": "fa0d71a75dca45dc41d3d8acb014066c4a715eda5d294124cd93787ac20d86ea",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 2,
+          "capture_method": "original_download",
+          "page": 4,
+          "status": "saved",
+          "bytes": 119342,
+          "sha256": "1dda8a2a042aca73fd13765caa92188fbd46939cbceebbc6970ed673c46fb7d5",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 3,
+          "capture_method": "original_download",
+          "page": 3,
+          "status": "saved",
+          "bytes": 189416,
+          "sha256": "2102dcfbcc2084a077e516930ab93cd9f28970e7b34558421adde43cf409148a",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 4,
+          "capture_method": "original_download",
+          "page": 2,
+          "status": "saved",
+          "bytes": 121660,
+          "sha256": "2188be2df86d16215c8b80358d42b3a5fd4f2618418f066c8ad76d9e4dc0d794",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 5,
+          "capture_method": "original_download",
+          "page": 15,
+          "status": "saved",
+          "bytes": 163106,
+          "sha256": "5905a4b74bb544d7abe849a94c5458326229ff2f76c20cad60066f93b2d98162",
+          "dimensions": [
+            1080,
+            1620
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 6,
+          "capture_method": "original_download",
+          "page": 5,
+          "status": "saved",
+          "bytes": 177336,
+          "sha256": "8e7d2be60854c3526ffc1853cc91a9dabcd4842cd9431a5390739c0d17f09bb1",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 7,
+          "capture_method": "original_download",
+          "page": 6,
+          "status": "saved",
+          "bytes": 157146,
+          "sha256": "c538faa6e1fbc96e8c2ffebad17c4ce777c6602293707bf6367352a64dcd2652",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 8,
+          "capture_method": "original_download",
+          "page": 7,
+          "status": "saved",
+          "bytes": 218378,
+          "sha256": "f3e69f0559432d3a40e35f28ab4d213221d030943826baaa8eee6ca49fe7cf92",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 9,
+          "capture_method": "original_download",
+          "page": 8,
+          "status": "saved",
+          "bytes": 211236,
+          "sha256": "703b073c65d51917801e8f2c38a475d2eadca1dd546a07e19668964ecf329598",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 10,
+          "capture_method": "original_download",
+          "page": 9,
+          "status": "saved",
+          "bytes": 117562,
+          "sha256": "12a55fc54a6a8315f222428af2e5c8fb54183881e76699c84bbcefc8d9c01c7c",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 11,
+          "capture_method": "original_download",
+          "page": 10,
+          "status": "saved",
+          "bytes": 249774,
+          "sha256": "42f1385bc348a5b5238696d08452652ecb7a5ef10baf74db6dd473c31ef4047d",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 12,
+          "capture_method": "original_download",
+          "page": 11,
+          "status": "saved",
+          "bytes": 105198,
+          "sha256": "b06465cb5394f52cfc0c5c0cb82f1137a4d0c1d1b22f9b00b56c8bb687cb7fac",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 13,
+          "capture_method": "original_download",
+          "page": 12,
+          "status": "saved",
+          "bytes": 154164,
+          "sha256": "f400361f3585d2a224d2ee4d9960d34eb23df8413c0684512014cfa2eebf1243",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 14,
+          "capture_method": "original_download",
+          "page": 13,
+          "status": "saved",
+          "bytes": 163208,
+          "sha256": "fe8a03b4a1e7d9962256e004685e1e726f8f32fe45dec42f0f7778ff46c2b27c",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 15,
+          "capture_method": "original_download",
+          "page": 14,
+          "status": "saved",
+          "bytes": 136134,
+          "sha256": "0471623b6d673ddfd35a51f273dbb647bf1124991d152d31dc68336fac0db3ee",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        }
+      ]
+    },
+    {
+      "source_id": "6a9a3a970000000026009db4",
+      "url": "https://www.xiaohongshu.com/explore/6a9a3a970000000026009db4",
+      "title": "照片的另一种玩法",
+      "author": "梨涡Pearadise",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "original_download",
+          "page": 1,
+          "status": "saved",
+          "bytes": 213444,
+          "sha256": "fe022ddac26e42257fbadf159ab9d143cffb65b1adab293053494947e94b95e0",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 2,
+          "capture_method": "original_download",
+          "page": 4,
+          "status": "saved",
+          "bytes": 245874,
+          "sha256": "cc478e40482df4640752778a569a1855ce90a4efb3c836a5052d70aaec0bc2b5",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 3,
+          "capture_method": "original_download",
+          "page": 14,
+          "status": "saved",
+          "bytes": 62978,
+          "sha256": "257a21e31b21921b1cde503f17239372ad1b7bd6efbe71e5ce17c66256673ab7",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 4,
+          "capture_method": "original_download",
+          "page": 3,
+          "status": "saved",
+          "bytes": 74070,
+          "sha256": "942783b01beece995006e9daa62746abe7c3789401f938d57b956cd6619c2c60",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 5,
+          "capture_method": "original_download",
+          "page": 2,
+          "status": "saved",
+          "bytes": 153268,
+          "sha256": "ad4b74a1dae6e6a3bf2c2af45d08aebb159b213adfefba02f574f34770991748",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 6,
+          "capture_method": "original_download",
+          "page": 5,
+          "status": "saved",
+          "bytes": 257356,
+          "sha256": "458989bd8386db9ee3f6bd71b9af41d293a2e8c62498a4cc56421f6e702a16d6",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 7,
+          "capture_method": "original_download",
+          "page": 6,
+          "status": "saved",
+          "bytes": 279992,
+          "sha256": "3bc20343e6083f0602acc8e9d3ce103ff6f1229c05d34c8ea5cb46ae2ffae195",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 8,
+          "capture_method": "original_download",
+          "page": 7,
+          "status": "saved",
+          "bytes": 107506,
+          "sha256": "cc9731fb6b013303cf3f0281850d73c11ea8a2e4d269010d0b9ede9c652dfa60",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 9,
+          "capture_method": "original_download",
+          "page": 8,
+          "status": "saved",
+          "bytes": 351502,
+          "sha256": "9c9310968337584f191cd37285e825578b1616d002cdb14239fe066c142288bb",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 10,
+          "capture_method": "original_download",
+          "page": 9,
+          "status": "saved",
+          "bytes": 220840,
+          "sha256": "9742ffe6a97f1799d70bb7d4c06b37e0690aa70b425ea5f28376eb7808f1f187",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 11,
+          "capture_method": "original_download",
+          "page": 10,
+          "status": "saved",
+          "bytes": 141060,
+          "sha256": "298e001e67fa466054ea2ecf4e1039e8516d665c33d1994b2d40b7636fdc491a",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 12,
+          "capture_method": "original_download",
+          "page": 11,
+          "status": "saved",
+          "bytes": 96154,
+          "sha256": "4d218f0c09794a821d0874a64e5adda87096b2af5f3a9b20635d290ec885d77c",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 13,
+          "capture_method": "original_download",
+          "page": 12,
+          "status": "saved",
+          "bytes": 193716,
+          "sha256": "96873073d1ebb3f4226bbbb766cc40e14dfe3ff7e15f9664f3c900029beac2cd",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 14,
+          "capture_method": "original_download",
+          "page": 13,
+          "status": "saved",
+          "bytes": 162864,
+          "sha256": "cf412bc46979f88d1350454093498747ecfbb8bdde49ff5e1003edf2031721c4",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        }
+      ]
+    },
+    {
+      "source_id": "6a7b1836000000003400cc3f",
+      "url": "https://www.xiaohongshu.com/explore/6a7b1836000000003400cc3f",
+      "title": "创作疯长！用AI解锁日常里的每一种可能",
+      "author": "像素蛋糕手机版",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "original_download",
+          "page": 1,
+          "status": "saved",
+          "bytes": 70802,
+          "sha256": "4febc838c9f5ffd34e381c8f77e32976e11321544757799686d81cb376f2c1b4",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 2,
+          "capture_method": "original_download",
+          "page": 3,
+          "status": "saved",
+          "bytes": 194470,
+          "sha256": "5b43f56d2c5c3a946845ab93266fd9fa96e695c8043ad7b31b0c7c18361765d4",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 3,
+          "capture_method": "original_download",
+          "page": 7,
+          "status": "saved",
+          "bytes": 175972,
+          "sha256": "049d6f7958df904ac75d7aa2e23e7f9c9b6ba8e1b3e206c36c3a04ef1e4b0880",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 4,
+          "capture_method": "original_download",
+          "page": 2,
+          "status": "saved",
+          "bytes": 143346,
+          "sha256": "c6c9f32b76a04e0ccc8251d1449a4b7b9aba5c8c70b5e70a547049abcafe543e",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 5,
+          "capture_method": "original_download",
+          "page": 4,
+          "status": "saved",
+          "bytes": 258268,
+          "sha256": "1409eae66bb25e467cdd785a4b27bbe63cefd024e583588bdc401da6a08d9296",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 6,
+          "capture_method": "original_download",
+          "page": 5,
+          "status": "saved",
+          "bytes": 124346,
+          "sha256": "fc8fe357adbcd740ed23851b691db4f1b4f84beff1a49d996835320bf97452c5",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 7,
+          "capture_method": "original_download",
+          "page": 6,
+          "status": "saved",
+          "bytes": 165078,
+          "sha256": "6e445f311017f2db04fb0eab44170b5f514d5a26e443355a5a3301324a13cd7e",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        }
+      ]
+    },
+    {
+      "source_id": "6a97b18a0000000027008f40",
+      "url": "https://www.xiaohongshu.com/explore/6a97b18a0000000027008f40",
+      "title": "我宣布像素蛋糕是坠适合修勾的P图软件",
+      "author": "蛋卷儿超有梗",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "original_download",
+          "page": 1,
+          "status": "saved",
+          "bytes": 111754,
+          "sha256": "03d5cef4ef049a4ec0b8ccceb7a7b12500184e0f5e6fc5ae6d9a14367b85e509",
+          "dimensions": [
+            1080,
+            1918
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 2,
+          "capture_method": "original_download",
+          "page": 2,
+          "status": "saved",
+          "bytes": 98110,
+          "sha256": "b472361f9a681b778cb75d78f624d643ab023651ddc0f0f8b162ac81670e7b22",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 3,
+          "capture_method": "original_download",
+          "page": 3,
+          "status": "saved",
+          "bytes": 268142,
+          "sha256": "a8017f0e5469c5f17e49ad55959a4fd5427993fe8688e0bb44509985256350c5",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 4,
+          "capture_method": "original_download",
+          "page": 4,
+          "status": "saved",
+          "bytes": 223282,
+          "sha256": "02e293ef5494c65596ef044537161e7b46f76f3818f30f3425ad1ea437ab9653",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 5,
+          "capture_method": "original_download",
+          "page": 5,
+          "status": "saved",
+          "bytes": 129288,
+          "sha256": "35f1db810d18cdb421b508088c25c288fa1aac0b7f26ab3cf14927f736a41bfd",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 6,
+          "capture_method": "original_download",
+          "page": 6,
+          "status": "saved",
+          "bytes": 135868,
+          "sha256": "e59cc805e08cea22fa94e4342317e7b48355281d6583f9fd1c640ec263329d8f",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 7,
+          "capture_method": "original_download",
+          "page": 7,
+          "status": "saved",
+          "bytes": 191706,
+          "sha256": "0586546ee5148e9e32cca2775494065dfe4a41c42f9dc27feadf8cdbe273d9c5",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 8,
+          "capture_method": "original_download",
+          "page": 8,
+          "status": "saved",
+          "bytes": 258904,
+          "sha256": "d90faabb852ee2d08d85ac798fac2d3021c3b7458cfa2a868201dc52407d40de",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 9,
+          "capture_method": "original_download",
+          "page": 9,
+          "status": "saved",
+          "bytes": 116442,
+          "sha256": "e79193bc9b83137a16dac444b755482b981bc809f6b5b88a02619684e175d15f",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 10,
+          "capture_method": "original_download",
+          "page": 10,
+          "status": "saved",
+          "bytes": 146634,
+          "sha256": "6af88c67cdab996198242404e6eb804ee2a19064699d4d88d2cf124ccdf388a4",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 11,
+          "capture_method": "original_download",
+          "page": 11,
+          "status": "saved",
+          "bytes": 230408,
+          "sha256": "b1c83f209b628c2d779660764905eb3c42996975097acca3a23236389e0e9180",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 12,
+          "capture_method": "original_download",
+          "page": 12,
+          "status": "saved",
+          "bytes": 99164,
+          "sha256": "3a499a6552f8ce16e309e9df254b0b329f7a82b2cd2761b2a1290214a5636a23",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 13,
+          "capture_method": "original_download",
+          "page": 13,
+          "status": "saved",
+          "bytes": 147728,
+          "sha256": "d0171561329978f270fb9e984645cf3be1f88635bd413b2152eeb32057c2b772",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 14,
+          "capture_method": "original_download",
+          "page": 14,
+          "status": "saved",
+          "bytes": 108326,
+          "sha256": "b40102f09cc42c5a5b7e520ecd1bd269cdd46a04fc4a13ab9e4b1fa399c4d443",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        }
+      ]
+    },
+    {
+      "source_id": "6a98c6250000000029014928",
+      "url": "https://www.xiaohongshu.com/explore/6a98c6250000000029014928",
+      "title": "像素蛋糕版lookbook，玩上瘾啦🍰",
+      "author": "KOOW",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "original_download",
+          "page": 1,
+          "status": "saved",
+          "bytes": 129286,
+          "sha256": "b2f924d61327ec9a584a8faf5533b9ca12ff8beb1308ddb2808c93f86c122c1e",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 2,
+          "capture_method": "original_download",
+          "page": 4,
+          "status": "saved",
+          "bytes": 62030,
+          "sha256": "f38d7f3801974d224a5419f8b9a01bd779e84d8f126c8f9a38e48db0c486ff33",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 3,
+          "capture_method": "original_download",
+          "page": 3,
+          "status": "saved",
+          "bytes": 137112,
+          "sha256": "e8e6a97186e4d88d7fda43eca01dad6815d0cc9aed998d2f0a5df82dfa5283ca",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 4,
+          "capture_method": "original_download",
+          "page": 2,
+          "status": "saved",
+          "bytes": 168726,
+          "sha256": "86d6b595830363d61ac128a62741c7320127a71b863feb7d6c0a347966561162",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 5,
+          "capture_method": "original_download",
+          "page": 9,
+          "status": "saved",
+          "bytes": 39598,
+          "sha256": "38d9562b75db87cabf792a4e4c735c46391c1120f0b4b8ae181fa26c6847d44a",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 6,
+          "capture_method": "original_download",
+          "page": 5,
+          "status": "saved",
+          "bytes": 103266,
+          "sha256": "cd092880fcaccbbd66cd9638ff1400f6136d8557bcb1c3a65deb4127f21cfe6c",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 7,
+          "capture_method": "original_download",
+          "page": 6,
+          "status": "saved",
+          "bytes": 31628,
+          "sha256": "d091e02418c6abd986e7769f47807033cfb1c414502fac5d5bbc43a571695054",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 8,
+          "capture_method": "original_download",
+          "page": 7,
+          "status": "saved",
+          "bytes": 31352,
+          "sha256": "1625ff193a2e681bbcb98ee50b42e9dee7ff6c956d269f7eab16551ac8f8f61a",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 9,
+          "capture_method": "original_download",
+          "page": 8,
+          "status": "saved",
+          "bytes": 61784,
+          "sha256": "d570010b2879431c4ef0e78280df787c68706f402c1673bfbcb5ae51d382f888",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "verification": "image_decoded"
+        }
+      ]
+    },
+    {
+      "source_id": "6a9552bb000000001e01459c",
+      "url": "https://www.xiaohongshu.com/explore/6a9552bb000000001e01459c",
+      "title": "只需一个咒语，废片秒变超现实主义大片！",
+      "author": "像素蛋糕AI修图",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "video_download",
+          "status": "saved",
+          "bytes": 7632539,
+          "sha256": "473d6bc6e07c434604918204a97ee8a29568ed122dac590ed18a46435e8867ea",
+          "dimensions": [
+            3840,
+            2160
+          ],
+          "verification": "ffprobe",
+          "duration": 16.068209
+        },
+        {
+          "index": 2,
+          "capture_method": "video_frame",
+          "timestamp": 0.0,
+          "status": "saved",
+          "bytes": 2837037,
+          "sha256": "0260163c46fa47e5ae9805353f32113ac65eebf8ff4e2ac07c1b415798d95cc3",
+          "dimensions": [
+            3840,
+            2160
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "473d6bc6e07c434604918204a97ee8a29568ed122dac590ed18a46435e8867ea",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 3,
+          "capture_method": "video_frame",
+          "timestamp": 2.0,
+          "status": "saved",
+          "bytes": 3157249,
+          "sha256": "756a0c30d97ce8e0ecc83c71f8a1742c7f650e83f69bdb2acee29fb23d89081f",
+          "dimensions": [
+            3840,
+            2160
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "473d6bc6e07c434604918204a97ee8a29568ed122dac590ed18a46435e8867ea",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 4,
+          "capture_method": "video_frame",
+          "timestamp": 3.0,
+          "status": "saved",
+          "bytes": 2772280,
+          "sha256": "43f86b6550734e57172adb849d1b6df5ac307e088d17e4a44c02cd00e3dd5455",
+          "dimensions": [
+            3840,
+            2160
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "473d6bc6e07c434604918204a97ee8a29568ed122dac590ed18a46435e8867ea",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 5,
+          "capture_method": "video_frame",
+          "timestamp": 4.0,
+          "status": "saved",
+          "bytes": 4325810,
+          "sha256": "40f6c396933da9725d2c82d20237be085db2f084d690110b85d873e5433dac08",
+          "dimensions": [
+            3840,
+            2160
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "473d6bc6e07c434604918204a97ee8a29568ed122dac590ed18a46435e8867ea",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 6,
+          "capture_method": "video_frame",
+          "timestamp": 6.0,
+          "status": "saved",
+          "bytes": 3680559,
+          "sha256": "01093f53c4b69e0b2e00cc34fb4b58fbdca663ee5ed0527749f3196ee6c1b18a",
+          "dimensions": [
+            3840,
+            2160
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "473d6bc6e07c434604918204a97ee8a29568ed122dac590ed18a46435e8867ea",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 7,
+          "capture_method": "video_frame",
+          "timestamp": 8.0,
+          "status": "saved",
+          "bytes": 5006120,
+          "sha256": "6a99b5d6419e78ae5c49347303ddeaea56a709f0cb0755d146d4b1d78ee3372b",
+          "dimensions": [
+            3840,
+            2160
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "473d6bc6e07c434604918204a97ee8a29568ed122dac590ed18a46435e8867ea",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 8,
+          "capture_method": "video_frame",
+          "timestamp": 10.0,
+          "status": "saved",
+          "bytes": 5919949,
+          "sha256": "a3432d402f609a7eb874e157ad28f99540f27bcb9ff2aa1083a64a33bc7cd854",
+          "dimensions": [
+            3840,
+            2160
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "473d6bc6e07c434604918204a97ee8a29568ed122dac590ed18a46435e8867ea",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 9,
+          "capture_method": "video_frame",
+          "timestamp": 11.0,
+          "status": "saved",
+          "bytes": 4694482,
+          "sha256": "5cc1f897d471849170f6f206711168a979de4fd1d90cfbdeabe387b7dd1b0870",
+          "dimensions": [
+            3840,
+            2160
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "473d6bc6e07c434604918204a97ee8a29568ed122dac590ed18a46435e8867ea",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 10,
+          "capture_method": "video_frame",
+          "timestamp": 12.0,
+          "status": "saved",
+          "bytes": 9774405,
+          "sha256": "159e157c8b9aaf7a0df95a66eb03f2c77fef444e3d0009417573279ae6a16bc7",
+          "dimensions": [
+            3840,
+            2160
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "473d6bc6e07c434604918204a97ee8a29568ed122dac590ed18a46435e8867ea",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 11,
+          "capture_method": "video_frame",
+          "timestamp": 14.8,
+          "status": "saved",
+          "bytes": 3332532,
+          "sha256": "130c172be734dc009a89fc9d0b0a9afcc9fa96db54416185cb2b624a8d157d00",
+          "dimensions": [
+            3840,
+            2160
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "473d6bc6e07c434604918204a97ee8a29568ed122dac590ed18a46435e8867ea",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        }
+      ]
+    },
+    {
+      "source_id": "6a42440200000000110195ff",
+      "url": "https://www.xiaohongshu.com/explore/6a42440200000000110195ff",
+      "title": "全网刷屏的像素拉伸怎么做？教程收好",
+      "author": "像素蛋糕AI修图",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "video_download",
+          "status": "saved",
+          "bytes": 2521117,
+          "sha256": "af6e1b43e494162336ccd7a79402682355f74b21114cefd51febfc96cd20e1e9",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "verification": "ffprobe",
+          "duration": 14.974667
+        },
+        {
+          "index": 2,
+          "capture_method": "video_frame",
+          "timestamp": 0.0,
+          "status": "saved",
+          "bytes": 532379,
+          "sha256": "1a77e97a3ad1d53b0129c392511d7ee267ef6c266ea2ea91422bdabf11b0f8c7",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "af6e1b43e494162336ccd7a79402682355f74b21114cefd51febfc96cd20e1e9",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 3,
+          "capture_method": "video_frame",
+          "timestamp": 2.0,
+          "status": "saved",
+          "bytes": 639767,
+          "sha256": "140f958b77f2a95164ba716561fabf6f88307abda2b0649a0fbcb23f86c6cf52",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "af6e1b43e494162336ccd7a79402682355f74b21114cefd51febfc96cd20e1e9",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 4,
+          "capture_method": "video_frame",
+          "timestamp": 4.0,
+          "status": "saved",
+          "bytes": 1270601,
+          "sha256": "5a26274171636753b384c6a1426850a1ce9366bf86a2ab8960c042a81037d3d0",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "af6e1b43e494162336ccd7a79402682355f74b21114cefd51febfc96cd20e1e9",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 5,
+          "capture_method": "video_frame",
+          "timestamp": 6.0,
+          "status": "saved",
+          "bytes": 577447,
+          "sha256": "5b37ca6f17ea91e8c2c4cc97eaf5cfef3d7c2e6fc54227f81c11ba794c4b2b7f",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "af6e1b43e494162336ccd7a79402682355f74b21114cefd51febfc96cd20e1e9",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 6,
+          "capture_method": "video_frame",
+          "timestamp": 8.0,
+          "status": "saved",
+          "bytes": 1059009,
+          "sha256": "5207f6aa398d788e93d58654fe04e7f31dd22d72c78d5c28a2a0a721ee97351e",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "af6e1b43e494162336ccd7a79402682355f74b21114cefd51febfc96cd20e1e9",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 7,
+          "capture_method": "video_frame",
+          "timestamp": 10.0,
+          "status": "saved",
+          "bytes": 1410042,
+          "sha256": "1137c363e54e822529a37d2073ee216b015f15bec7fdce1ee25e5bcca5cf58ec",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "af6e1b43e494162336ccd7a79402682355f74b21114cefd51febfc96cd20e1e9",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 8,
+          "capture_method": "video_frame",
+          "timestamp": 12.0,
+          "status": "saved",
+          "bytes": 1645155,
+          "sha256": "48b5f4a8eb32d3d3e8014f0db211b1c38d253eb75bc7d8df60a13586096087a7",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "af6e1b43e494162336ccd7a79402682355f74b21114cefd51febfc96cd20e1e9",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 9,
+          "capture_method": "video_frame",
+          "timestamp": 14.2,
+          "status": "saved",
+          "bytes": 527503,
+          "sha256": "7b20867c545801cd020d4e882c83e23984e39a0cfda926fe5fa5d65fcf0c838d",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "af6e1b43e494162336ccd7a79402682355f74b21114cefd51febfc96cd20e1e9",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        }
+      ]
+    },
+    {
+      "source_id": "6a9cd521000000002502d045",
+      "url": "https://www.xiaohongshu.com/explore/6a9cd521000000002502d045",
+      "title": "当我把婚纱照做成了泥塑小人儿",
+      "author": "琰语在北京",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "video_download",
+          "status": "saved",
+          "bytes": 8866594,
+          "sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "ffprobe",
+          "duration": 113.1
+        },
+        {
+          "index": 2,
+          "capture_method": "video_frame",
+          "timestamp": 0.0,
+          "status": "saved",
+          "bytes": 1197637,
+          "sha256": "6d7f0974b1f1ab708c170a4126d6b75c99327a928117ab6b30113bdb3a471b80",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 3,
+          "capture_method": "video_frame",
+          "timestamp": 10.0,
+          "status": "saved",
+          "bytes": 1163141,
+          "sha256": "0c6613d8aea8de76284e7667bd37c580543b3d5b919860ee69b2ea7c5de7235c",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 4,
+          "capture_method": "video_frame",
+          "timestamp": 20.0,
+          "status": "saved",
+          "bytes": 1135492,
+          "sha256": "18f83071dbd8e584d66a5e1e2914ebf23ffc1d081b861d441c1a262047f42640",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 5,
+          "capture_method": "video_frame",
+          "timestamp": 30.0,
+          "status": "saved",
+          "bytes": 1178226,
+          "sha256": "6af74a7a75ce4710c98b253f65eb1e3df82cc377edd1795406e34713950648c3",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 6,
+          "capture_method": "video_frame",
+          "timestamp": 40.0,
+          "status": "saved",
+          "bytes": 1174770,
+          "sha256": "f4ced85be02232ca540b63a18de6028700d89704929348c02d054c63923fd981",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 7,
+          "capture_method": "video_frame",
+          "timestamp": 50.0,
+          "status": "saved",
+          "bytes": 1133082,
+          "sha256": "afc9558cd703d2147aac657ee9ab051270472ed81b67befaf034ccb2e4dca3c5",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 8,
+          "capture_method": "video_frame",
+          "timestamp": 60.0,
+          "status": "saved",
+          "bytes": 1205544,
+          "sha256": "d3cd053980f65e22aead8302d56ff9937c3cbd5e2fe2e1425f2c42c45338cbc8",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 9,
+          "capture_method": "video_frame",
+          "timestamp": 70.0,
+          "status": "saved",
+          "bytes": 1163139,
+          "sha256": "1c672ff18511a093241bae42fe00614e4694bb6ff4308869cebf16c381e65478",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 10,
+          "capture_method": "video_frame",
+          "timestamp": 80.0,
+          "status": "saved",
+          "bytes": 1134938,
+          "sha256": "b40ec32c8575eed314ac9d054031af0293b821875bbc1d6d57f3e2ddf3027c48",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 11,
+          "capture_method": "video_frame",
+          "timestamp": 90.0,
+          "status": "saved",
+          "bytes": 1200869,
+          "sha256": "281af12304afcd9343ff3a4d2d17c580abf2d9d7e4cfad934982f6e5491c318a",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 12,
+          "capture_method": "video_frame",
+          "timestamp": 100.0,
+          "status": "saved",
+          "bytes": 1140114,
+          "sha256": "bd3a91e36ea19550ff928309dbd89db8a0a9868c115a80e45e3b8f944772fb8e",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        },
+        {
+          "index": 13,
+          "capture_method": "video_frame",
+          "timestamp": 112.0,
+          "status": "saved",
+          "bytes": 1104604,
+          "sha256": "9792ab3c8ac96e7a40cbae920d20322298730e9cc50fc8858cab3f153d011ad7",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded",
+          "source_video_sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2",
+          "timestamp_basis": "ffmpeg_showinfo_decoded_pts"
+        }
+      ]
+    },
+    {
+      "source_id": "6a963cc300000000270088e8",
+      "url": "https://www.xiaohongshu.com/explore/6a963cc300000000270088e8",
+      "title": "这个电影感海报也太高级了吧❗️附教程",
+      "author": "feir",
+      "media": [
+        {
+          "index": 1,
+          "capture_method": "original_download",
+          "page": 1,
+          "status": "saved",
+          "bytes": 233982,
+          "sha256": "9714febc04aee5a01ba3a68e97856b2a27105ec23f854f2568812e773c024af2",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 2,
+          "capture_method": "original_download",
+          "page": 2,
+          "status": "saved",
+          "bytes": 164434,
+          "sha256": "9a4e22aba7c349f03087c2faf34924345ff23624ec8d3fada0949e25bad6ce0e",
+          "dimensions": [
+            1080,
+            1350
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 3,
+          "capture_method": "original_download",
+          "page": 3,
+          "status": "saved",
+          "bytes": 289822,
+          "sha256": "c3519a38ee44e436f31e549c0645aa88c87f9373f1e982f2b07084085560b718",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 4,
+          "capture_method": "original_download",
+          "page": 4,
+          "status": "saved",
+          "bytes": 186258,
+          "sha256": "dc81b4198a9267851faa342c1a531b8705f64630e402a01ea3ebe3c9b63f7739",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 5,
+          "capture_method": "original_download",
+          "page": 5,
+          "status": "saved",
+          "bytes": 231598,
+          "sha256": "4f96525e77a5a5ebd7649bec155604ce638a1a65614aa42a8aee9cc3b51eec4d",
+          "dimensions": [
+            1024,
+            1376
+          ],
+          "verification": "image_decoded"
+        },
+        {
+          "index": 6,
+          "capture_method": "original_download",
+          "page": 6,
+          "status": "saved",
+          "bytes": 172374,
+          "sha256": "d2c7cee39d34d518f4c5a0051912a959da4548a8be01825ec387c0235021407c",
+          "dimensions": [
+            1080,
+            1440
+          ],
+          "verification": "image_decoded"
+        }
+      ]
+    }
+  ],
+  "platform": "xiaohongshu",
+  "collected_on": "2026-09-06",
+  "scope_note": "Downloaded note images, downloaded videos, and extracted video frames are counted separately; frames are derivatives of videos, not independent original photos."
+}

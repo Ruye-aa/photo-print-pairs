@@ -114,6 +114,45 @@ class CompositionTests(unittest.TestCase):
         ], check=True, capture_output=True, text=True)
         self.assertEqual(json.loads(result.stdout)["dimensions"], [64, 80])
 
+    def make_plan(self, source_sha=None):
+        path = self.root / "plan.json"
+        path.write_text(json.dumps({
+            "schema_version": 1,
+            "source": {"sha256": source_sha or pair.digest(self.photo), "width": 64, "height": 40},
+            "style": {"id": "C", "name": "平面抽象"},
+            "prompt": "Create a standalone flat abstract artwork.",
+            "series": {"paper_color": "#F3EFE4"},
+        }))
+        return path
+
+    def test_plan_binding_and_separate_artwork_round_trip(self):
+        self.args.plan = str(self.make_plan())
+        self.args.paper_color = None
+        self.args.export_artwork = True
+        result = pair.compose(self.args)
+        record = json.loads(Path(result["record"]).read_text())
+        self.assertEqual(record["generation_plan"]["style"]["id"], "C")
+        self.assertEqual(record["generation_plan_sha256"], pair.digest(Path(self.args.plan)))
+        self.assertEqual(record["paper_color"], "#F3EFE4")
+        self.assertEqual(record["artwork_output_sha256"], pair.digest(result["artwork_output"]))
+        with Image.open(result["output"]) as combined, Image.open(result["artwork_output"]) as art:
+            self.assertTrue(pair.same_pixels(combined.crop((0, 40, 64, 80)), art))
+        again = pair.compose(self.args)
+        self.assertEqual(again["artwork_output"], result["artwork_output"])
+        self.assertTrue(json.loads(Path(again["record"]).read_text())["artwork_output_reused"])
+
+    def test_plan_from_another_photo_writes_nothing(self):
+        self.args.plan = str(self.make_plan("0" * 64))
+        with self.assertRaisesRegex(ValueError, "different source"):
+            pair.compose(self.args)
+        self.assertFalse(Path(self.args.output).exists())
+
+    def test_explicit_color_overrides_series(self):
+        self.args.plan = str(self.make_plan())
+        self.args.paper_color = "#112233"
+        result = pair.compose(self.args)
+        self.assertEqual(json.loads(Path(result["record"]).read_text())["paper_color"], "#112233")
+
 
 class InstallationTests(unittest.TestCase):
     def setUp(self):
@@ -128,6 +167,8 @@ class InstallationTests(unittest.TestCase):
         self.assertEqual(second["status"], "unchanged")
         self.assertTrue((self.target / "SKILL.md").exists())
         self.assertTrue((self.target / "scripts/compose_pair.py").exists())
+        self.assertTrue((self.target / "scripts/plan_artwork.py").exists())
+        self.assertTrue((self.target / "scripts/review_gallery.py").exists())
         self.assertFalse((self.target / "tests").exists())
         self.assertFalse((self.target / ".git").exists())
         self.assertFalse((self.target / "README.md").exists())

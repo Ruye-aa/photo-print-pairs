@@ -9,6 +9,10 @@ venv/
 htmlcov/
 .pytest_cache/
 .records/
+examples/style-trials/plans/
+examples/research-trials/plans/
+examples/research-trials/*-plan.json
+examples/research-trials/generation-paths.local.json
 outputs/
 work/
 *.egg-info/

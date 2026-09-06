@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "attempts": [
+    {
+      "source_id": "6a9552bb000000001e01459c",
+      "capture_method": "video_download",
+      "transport": "browser_page_assets",
+      "status": "failed",
+      "error_code": "browser_asset_fetch_failed",
+      "recovered_by": "normal_http_observed_resource"
+    },
+    {
+      "source_id": "6a9552bb000000001e01459c",
+      "capture_method": "video_download",
+      "transport": "normal_http_observed_resource",
+      "status": "saved",
+      "http_status": 200,
+      "sha256": "473d6bc6e07c434604918204a97ee8a29568ed122dac590ed18a46435e8867ea"
+    },
+    {
+      "source_id": "6a42440200000000110195ff",
+      "capture_method": "video_download",
+      "transport": "browser_page_assets",
+      "status": "failed",
+      "error_code": "browser_asset_fetch_failed",
+      "recovered_by": "normal_http_observed_resource"
+    },
+    {
+      "source_id": "6a42440200000000110195ff",
+      "capture_method": "video_download",
+      "transport": "normal_http_observed_resource",
+      "status": "saved",
+      "http_status": 200,
+      "sha256": "af6e1b43e494162336ccd7a79402682355f74b21114cefd51febfc96cd20e1e9"
+    },
+    {
+      "source_id": "6a9cd521000000002502d045",
+      "capture_method": "video_download",
+      "transport": "browser_page_assets",
+      "status": "failed",
+      "error_code": "browser_asset_fetch_failed",
+      "recovered_by": "normal_http_observed_resource"
+    },
+    {
+      "source_id": "6a9cd521000000002502d045",
+      "capture_method": "video_download",
+      "transport": "normal_http_observed_resource",
+      "status": "saved",
+      "http_status": 200,
+      "sha256": "f349cc231fc7a5b879f665df3a27f5390845dc4cafc7be05b51a8c7f11b8a5a2"
+    },
+    {
+      "source_id": "6a9552bb000000001e01459c",
+      "capture_method": "screenshot",
+      "status": "excluded",
+      "reason": "Only a dark search panel and navigation tabs are visible; no photo or video content is present.",
+      "included_in_media_counts": false,
+      "bytes": 2328,
+      "sha256": "148fbff1f55ce6fd8f58ee97ded216b7c8b6e3342d7d9e8ae8320db986815e4e",
+      "dimensions": [
+        525,
+        315
+      ],
+      "verification": "image_decoded"
+    },
+    {
+      "source_id": "6a963cc300000000270088e8",
+      "capture_method": "screenshot",
+      "page": 4,
+      "status": "saved",
+      "purpose": "screenshot_workflow_validation",
+      "is_download_failure_fallback": false,
+      "included_in_media_counts": false,
+      "visual_review": "Photo/effect content, author and page indicator are visible; photo content occupies a small region of the screenshot. Useful as capture-method evidence, not a full-resolution style reference.",
+      "bytes": 12892,
+      "sha256": "b2e50d2816a497d2d8e1e50f342a30810f220cfa350eea4c811d234a8ec890a1",
+      "dimensions": [
+        525,
+        315
+      ],
+      "verification": "image_decoded"
+    },
+    {
+      "source_id": "6a963cc300000000270088e8",
+      "page": 1,
+      "capture_method": "original_download",
+      "transport": "browser_page_assets",
+      "status": "not_requested",
+      "reason": "The DOM URL was observed, but the image was not present in the asset inventory when bundled; this is not a failed download."
+    },
+    {
+      "source_id": "6a963cc300000000270088e8",
+      "page": 1,
+      "capture_method": "original_download",
+      "transport": "normal_http_observed_resource",
+      "status": "saved",
+      "sha256": "9714febc04aee5a01ba3a68e97856b2a27105ec23f854f2568812e773c024af2",
+      "http_status": 200
+    },
+    {
+      "source_id": "6a963cc300000000270088e8",
+      "page": 2,
+      "capture_method": "original_download",
+      "transport": "browser_page_assets",
+      "status": "not_requested",
+      "reason": "The DOM URL was observed, but the image was not present in the asset inventory when bundled; this is not a failed download."
+    },
+    {
+      "source_id": "6a963cc300000000270088e8",
+      "page": 2,
+      "capture_method": "original_download",
+      "transport": "normal_http_observed_resource",
+      "status": "saved",
+      "sha256": "9a4e22aba7c349f03087c2faf34924345ff23624ec8d3fada0949e25bad6ce0e",
+      "http_status": 200
+    },
+    {
+      "source_id": "6a963cc300000000270088e8",
+      "page": 3,
+      "capture_method": "original_download",
+      "transport": "browser_page_assets",
+      "status": "not_requested",
+      "reason": "The DOM URL was observed, but the image was not present in the asset inventory when bundled; this is not a failed download."
+    },
+    {
+      "source_id": "6a963cc300000000270088e8",
+      "page": 3,
+      "capture_method": "original_download",
+      "transport": "normal_http_observed_resource",
+      "status": "saved",
+      "sha256": "c3519a38ee44e436f31e549c0645aa88c87f9373f1e982f2b07084085560b718",
+      "http_status": 200
+    },
+    {
+      "source_id": "6a963cc300000000270088e8",
+      "page": 4,
+      "capture_method": "original_download",
+      "transport": "browser_page_assets",
+      "status": "not_requested",
+      "reason": "The DOM URL was observed, but the image was not present in the asset inventory when bundled; this is not a failed download."
+    },
+    {
+      "source_id": "6a963cc300000000270088e8",
+      "page": 4,
+      "capture_method": "original_download",
+      "transport": "normal_http_observed_resource",
+      "status": "saved",
+      "sha256": "dc81b4198a9267851faa342c1a531b8705f64630e402a01ea3ebe3c9b63f7739",
+      "http_status": 200
+    },
+    {
+      "source_id": "6a963cc300000000270088e8",
+      "page": 5,
+      "capture_method": "original_download",
+      "transport": "browser_page_assets",
+      "status": "saved",
+      "sha256": "4f96525e77a5a5ebd7649bec155604ce638a1a65614aa42a8aee9cc3b51eec4d"
+    },
+    {
+      "source_id": "6a963cc300000000270088e8",
+      "page": 6,
+      "capture_method": "original_download",
+      "transport": "browser_page_assets",
+      "status": "not_requested",
+      "reason": "The DOM URL was observed, but the image was not present in the asset inventory when bundled; this is not a failed download."
+    },
+    {
+      "source_id": "6a963cc300000000270088e8",
+      "page": 6,
+      "capture_method": "original_download",
+      "transport": "normal_http_observed_resource",
+      "status": "saved",
+      "sha256": "d2c7cee39d34d518f4c5a0051912a959da4548a8be01825ec387c0235021407c",
+      "http_status": 200
+    }
+  ],
+  "valid_screenshot_count": 1,
+  "excluded_screenshot_count": 1,
+  "valid_screenshot_style_sample_count": 0
+}
