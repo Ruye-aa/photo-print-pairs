@@ -22,6 +22,7 @@ def module(name, file):
 
 pair = module("compose_pair", "compose_pair.py")
 installer = module("install_skill", "install_skill.py")
+reference_importer = module("import_references", "import_references.py")
 
 
 class CompositionTests(unittest.TestCase):
@@ -148,6 +149,45 @@ class InstallationTests(unittest.TestCase):
         for path in (ROOT, ROOT.parent):
             with self.subTest(target=str(path)), self.assertRaises(ValueError):
                 installer.install(ROOT, path)
+
+
+class ReferenceImportTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        self.source = self.root / "source"
+        self.source.mkdir()
+        self.target = self.root / "target"
+        self.manifest = self.root / "manifest.json"
+        self.rows = []
+        for name, color in [("one.png", "red"), ("two.png", "blue")]:
+            path = self.source / name
+            Image.new("RGB", (8, 6), color).save(path)
+            self.rows.append({"file": "assets/" + name, "sha256": pair.digest(path)})
+        self.manifest.write_text(json.dumps(self.rows))
+
+    def test_import_and_repeat_keep_exact_files(self):
+        for _ in range(2):
+            result = reference_importer.import_references(self.source, self.manifest, self.target)
+            self.assertEqual(result["references"], 2)
+        for row in self.rows:
+            self.assertEqual(pair.digest(self.target / Path(row["file"]).name), row["sha256"])
+
+    def test_missing_reference_writes_nothing(self):
+        (self.source / "two.png").unlink()
+        with self.assertRaises(ValueError):
+            reference_importer.import_references(self.source, self.manifest, self.target)
+        self.assertFalse(self.target.exists())
+
+    def test_changed_target_is_not_overwritten(self):
+        self.target.mkdir()
+        conflict = self.target / "two.png"
+        conflict.write_bytes(b"keep this file")
+        with self.assertRaises(ValueError):
+            reference_importer.import_references(self.source, self.manifest, self.target)
+        self.assertEqual(conflict.read_bytes(), b"keep this file")
+        self.assertFalse((self.target / "one.png").exists())
 
 
 class ReferenceIntegrityTests(unittest.TestCase):

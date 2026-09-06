@@ -4,6 +4,10 @@
 
 这是一个 Codex skill 仓库，包含参考素材、生成提示词、评价方法和确定性拼接工具。艺术效果由 Codex 中可用的图片生成工具完成；Python 脚本负责尺寸适配、拼接和文件验证。
 
+下面是随仓库保存的风格参考样例：上方为照片，下方为目标艺术效果。它是原始参考，不是本仓库测试生成的结果。
+
+<img src="assets/reference-originals/image_11c7098e.jpg" alt="山体撕纸拼贴的上下对照参考样例" width="360">
+
 ## 能做什么
 
 - **A 风格**：撕纸拼贴 / 干刷版画，用少量平面形状概括主体。
@@ -96,6 +100,12 @@ Windows 可使用 .venv\\Scripts\\activate 激活环境，或直接使用虚拟�
 
 参考图片随仓库保存用于复现该流程；原始文件未附带完整的作者和许可资料。仓库未为这些图片声明开源许可。
 
+需要从本地恢复参考图时，可按清单重新导入；程序核对文件哈希，缺失或内容不符时停止，不会替换不同的现有图片。
+
+```bash
+python3 scripts/import_references.py --source /path/to/reference-folder
+```
+
 ## 仓库结构
 
 ```text
@@ -107,6 +117,7 @@ photo-print-pairs/
 ├── references/                  # 风格、提示词和历史评价
 ├── scripts/
 │   ├── compose_pair.py          # 尺寸适配与上下拼接
+│   ├── import_references.py     # 从本地导入并核验参考图
 │   └── install_skill.py         # 安装与备份更新
 ├── tests/                       # 不调用图片生成服务的验证
 └── requirements.txt
