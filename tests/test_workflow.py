@@ -22,7 +22,6 @@ def module(name, file):
 
 pair = module("compose_pair", "compose_pair.py")
 installer = module("install_skill", "install_skill.py")
-reference_importer = module("import_references", "import_references.py")
 
 
 class CompositionTests(unittest.TestCase):
@@ -114,45 +113,6 @@ class CompositionTests(unittest.TestCase):
         ], check=True, capture_output=True, text=True)
         self.assertEqual(json.loads(result.stdout)["dimensions"], [64, 80])
 
-    def make_plan(self, source_sha=None):
-        path = self.root / "plan.json"
-        path.write_text(json.dumps({
-            "schema_version": 1,
-            "source": {"sha256": source_sha or pair.digest(self.photo), "width": 64, "height": 40},
-            "style": {"id": "C", "name": "平面抽象"},
-            "prompt": "Create a standalone flat abstract artwork.",
-            "series": {"paper_color": "#F3EFE4"},
-        }))
-        return path
-
-    def test_plan_binding_and_separate_artwork_round_trip(self):
-        self.args.plan = str(self.make_plan())
-        self.args.paper_color = None
-        self.args.export_artwork = True
-        result = pair.compose(self.args)
-        record = json.loads(Path(result["record"]).read_text())
-        self.assertEqual(record["generation_plan"]["style"]["id"], "C")
-        self.assertEqual(record["generation_plan_sha256"], pair.digest(Path(self.args.plan)))
-        self.assertEqual(record["paper_color"], "#F3EFE4")
-        self.assertEqual(record["artwork_output_sha256"], pair.digest(result["artwork_output"]))
-        with Image.open(result["output"]) as combined, Image.open(result["artwork_output"]) as art:
-            self.assertTrue(pair.same_pixels(combined.crop((0, 40, 64, 80)), art))
-        again = pair.compose(self.args)
-        self.assertEqual(again["artwork_output"], result["artwork_output"])
-        self.assertTrue(json.loads(Path(again["record"]).read_text())["artwork_output_reused"])
-
-    def test_plan_from_another_photo_writes_nothing(self):
-        self.args.plan = str(self.make_plan("0" * 64))
-        with self.assertRaisesRegex(ValueError, "different source"):
-            pair.compose(self.args)
-        self.assertFalse(Path(self.args.output).exists())
-
-    def test_explicit_color_overrides_series(self):
-        self.args.plan = str(self.make_plan())
-        self.args.paper_color = "#112233"
-        result = pair.compose(self.args)
-        self.assertEqual(json.loads(Path(result["record"]).read_text())["paper_color"], "#112233")
-
 
 class InstallationTests(unittest.TestCase):
     def setUp(self):
@@ -167,8 +127,6 @@ class InstallationTests(unittest.TestCase):
         self.assertEqual(second["status"], "unchanged")
         self.assertTrue((self.target / "SKILL.md").exists())
         self.assertTrue((self.target / "scripts/compose_pair.py").exists())
-        self.assertTrue((self.target / "scripts/plan_artwork.py").exists())
-        self.assertTrue((self.target / "scripts/review_gallery.py").exists())
         self.assertFalse((self.target / "tests").exists())
         self.assertFalse((self.target / ".git").exists())
         self.assertFalse((self.target / "README.md").exists())
@@ -190,45 +148,6 @@ class InstallationTests(unittest.TestCase):
         for path in (ROOT, ROOT.parent):
             with self.subTest(target=str(path)), self.assertRaises(ValueError):
                 installer.install(ROOT, path)
-
-
-class ReferenceImportTests(unittest.TestCase):
-    def setUp(self):
-        self.temp = tempfile.TemporaryDirectory()
-        self.addCleanup(self.temp.cleanup)
-        self.root = Path(self.temp.name)
-        self.source = self.root / "source"
-        self.source.mkdir()
-        self.target = self.root / "target"
-        self.manifest = self.root / "manifest.json"
-        self.rows = []
-        for name, color in [("one.png", "red"), ("two.png", "blue")]:
-            path = self.source / name
-            Image.new("RGB", (8, 6), color).save(path)
-            self.rows.append({"file": "assets/" + name, "sha256": pair.digest(path)})
-        self.manifest.write_text(json.dumps(self.rows))
-
-    def test_import_and_repeat_keep_exact_files(self):
-        for _ in range(2):
-            result = reference_importer.import_references(self.source, self.manifest, self.target)
-            self.assertEqual(result["references"], 2)
-        for row in self.rows:
-            self.assertEqual(pair.digest(self.target / Path(row["file"]).name), row["sha256"])
-
-    def test_missing_reference_writes_nothing(self):
-        (self.source / "two.png").unlink()
-        with self.assertRaises(ValueError):
-            reference_importer.import_references(self.source, self.manifest, self.target)
-        self.assertFalse(self.target.exists())
-
-    def test_changed_target_is_not_overwritten(self):
-        self.target.mkdir()
-        conflict = self.target / "two.png"
-        conflict.write_bytes(b"keep this file")
-        with self.assertRaises(ValueError):
-            reference_importer.import_references(self.source, self.manifest, self.target)
-        self.assertEqual(conflict.read_bytes(), b"keep this file")
-        self.assertFalse((self.target / "one.png").exists())
 
 
 class ReferenceIntegrityTests(unittest.TestCase):

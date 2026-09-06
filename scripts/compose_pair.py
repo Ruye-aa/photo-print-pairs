@@ -95,34 +95,9 @@ def compose(args):
     art_sha = digest(art_path)
     photo, source_mode = load_rgb(photo_path)
     art, _ = load_rgb(art_path)
-    plan_path = Path(args.plan).expanduser().resolve() if getattr(args, "plan", None) else None
-    plan = None
-    plan_sha = None
-    if plan_path:
-        plan_bytes = plan_path.read_bytes()
-        plan_sha = hashlib.sha256(plan_bytes).hexdigest()
-        plan = json.loads(plan_bytes)
-        if not isinstance(plan, dict) or plan.get("schema_version") != 1:
-            raise ValueError("Unsupported generation plan")
-        source = plan.get("source")
-        if not isinstance(source, dict) or source.get("sha256") != photo_sha:
-            raise ValueError("Generation plan belongs to a different source photo")
-        if (source.get("width"), source.get("height")) != photo.size:
-            raise ValueError("Generation plan source dimensions differ")
-        if not isinstance(plan.get("prompt"), str) or not plan["prompt"].strip():
-            raise ValueError("Generation plan must contain its complete prompt")
-        style = plan.get("style")
-        if not isinstance(style, dict) or style.get("id") not in {"A", "B", "C", "D", "E"}:
-            raise ValueError("Generation plan style is invalid")
     crop = args.art_crop or (0, 0, art.width, art.height)
     valid_rect(crop, art.size, "art-crop")
-    series = plan.get("series") if plan else None
-    series_color = series.get("paper_color") if isinstance(series, dict) else None
-    style_color = plan["style"].get("paper_color") if plan else None
-    paper_color = args.paper_color or series_color or style_color or "#EEE8DA"
-    color = ImageColor.getrgb(paper_color)
-    if len(color) != 3:
-        raise ValueError("Paper color must be opaque RGB")
+    color = ImageColor.getrgb(args.paper_color)
     canvas_size = args.size or (photo.width, photo.height * 2)
     w, total_h = canvas_size
     top_h = total_h // 2
@@ -152,16 +127,6 @@ def compose(args):
         source_pixels_equal = same_pixels(check.crop((0, 0, w, top_h)), photo)
     if digest(photo_path) != photo_sha or digest(art_path) != art_sha:
         raise RuntimeError("An input file changed during composition")
-    if plan_path and digest(plan_path) != plan_sha:
-        raise RuntimeError("Generation plan changed during composition")
-    artwork_output = None
-    artwork_reused = None
-    if getattr(args, "export_artwork", False):
-        artwork_output, artwork_reused = save_without_overwrite(
-            bottom, saved.with_name(saved.stem + "_artwork.png"))
-        with Image.open(artwork_output) as exported:
-            if not same_pixels(exported, bottom):
-                raise RuntimeError("Exported artwork differs from the lower panel")
     now = datetime.now(timezone.utc)
     record = {
         "created_at": now.isoformat(),
@@ -183,18 +148,12 @@ def compose(args):
         "photo_paste_box": list(top_box),
         "artwork_crop": list(crop),
         "artwork_paste_box_within_bottom": list(art_box),
-        "paper_color": paper_color,
+        "paper_color": args.paper_color,
         "paper_sample": list(args.paper_sample) if args.paper_sample else None,
         "top_panel_verified": True,
         "photo_fitted_pixels_verified": True,
         "top_matches_oriented_source_rgb_pixels": source_pixels_equal,
         "input_files_unchanged": True,
-        "generation_plan": plan,
-        "generation_plan_sha256": plan_sha,
-        "artwork_output": str(artwork_output) if artwork_output else None,
-        "artwork_output_sha256": digest(artwork_output) if artwork_output else None,
-        "artwork_output_reused": artwork_reused,
-        "artwork_output_size": list(bottom.size) if artwork_output else None,
     }
     record_path = (Path(args.record).expanduser().resolve() if args.record
                    else saved.parent / ".records" / f"{saved.stem}_{now.strftime('%Y%m%dT%H%M%S%fZ')}.json")
@@ -203,8 +162,7 @@ def compose(args):
         json.dump(record, stream, ensure_ascii=False, indent=2)
     return {"output": str(saved), "dimensions": list(canvas_size),
             "top_source_rgb_pixels_equal": source_pixels_equal,
-                "reused": reused, "record": str(record_path),
-                "artwork_output": str(artwork_output) if artwork_output else None}
+            "reused": reused, "record": str(record_path)}
 
 
 def main():
@@ -214,11 +172,9 @@ def main():
     parser.add_argument("--output", required=True)
     parser.add_argument("--size", type=size_arg, help="Total composite WIDTHxHEIGHT; default source W by 2H")
     parser.add_argument("--art-crop", type=rect, help="Manually inspected blank-margin crop in oriented artwork pixels")
-    parser.add_argument("--paper-color", help="Opaque paper color; defaults to plan series color or #EEE8DA")
+    parser.add_argument("--paper-color", default="#EEE8DA")
     parser.add_argument("--paper-sample", type=rect, help="Manually inspected blank-paper rectangle from oriented artwork")
     parser.add_argument("--record", help="Optional new record path; default output/.records/")
-    parser.add_argument("--plan", help="Generation plan from plan_artwork.py; source hash must match")
-    parser.add_argument("--export-artwork", action="store_true", help="Also save the fitted lower panel as a separate PNG")
     args = parser.parse_args()
     try:
         print(json.dumps(compose(args), ensure_ascii=False))
