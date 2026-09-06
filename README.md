@@ -8,6 +8,8 @@
 
 <img src="assets/reference-originals/image_11c7098e.jpg" alt="山体撕纸拼贴的上下对照参考样例" width="360">
 
+此前实际生成的结果单独保存在 **[examples/generated-pairs](examples/generated-pairs/README.md)**：A、B 两种风格各 3 张，共 6 张完整上下拼接 PNG。文件夹中提供分组预览、尺寸、简评和原照片来源。
+
 ## 能做什么
 
 - **A 风格**：撕纸拼贴 / 干刷版画，用少量平面形状概括主体。
@@ -95,6 +97,7 @@ Windows 可使用 .venv\\Scripts\\activate 激活环境，或直接使用虚拟�
 - [通用提示词与两种风格模板](references/prompting.md)
 - [22 组历史提示词和修订记录](references/prompt-examples.json)
 - [历史验证与失败案例](references/validation-notes.md)
+- [6 张实际生成的上下拼接结果](examples/generated-pairs/README.md)
 
 历史验证覆盖 16 张输入、22 个目标版本和 3 次额外修订。紫花、单塔较接近参考；复杂街景容易保留过多细节，鱼群出现过小鱼省略。评价来自同一助手的视觉检查，没有独立评审或重复生成稳定性统计，不能将这些候选结果当作通用成功率依据。
 
@@ -114,6 +117,7 @@ photo-print-pairs/
 ├── SKILL.md
 ├── agents/openai.yaml
 ├── assets/reference-originals/   # 13 张参考原图
+├── examples/generated-pairs/     # 实际生成结果，A、B 风格各 3 张
 ├── references/                  # 风格、提示词和历史评价
 ├── scripts/
 │   ├── compose_pair.py          # 尺寸适配与上下拼接

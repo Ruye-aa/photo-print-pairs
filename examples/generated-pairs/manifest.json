@@ -1,0 +1,134 @@
+[
+  {
+    "id": "01_A",
+    "title": "高山湖泊",
+    "style": "A",
+    "file": "01_A_高山湖泊_1067x3200.png",
+    "selected_variant": "01_A",
+    "input_dimensions": [
+      1067,
+      1600
+    ],
+    "output_dimensions": [
+      1067,
+      3200
+    ],
+    "source_page": "https://www.pexels.com/photo/alpine-landscape-with-mountain-lake-18305002/",
+    "source_author": "Adrien Olichon",
+    "source_license_page": "https://www.pexels.com/license/",
+    "source_retrieved_at": "2026-09-06",
+    "top_photo_rgb_pixels_verified": true,
+    "sha256": "a9322f572355d15684f2f53154acd47cc7c1a7488513e3527055ee92854c5e61",
+    "evaluation": "山脊与岸线可辨，黑灰绿大色面和纸片毛边较接近目标；山体细分仍偏多。"
+  },
+  {
+    "id": "06_A",
+    "title": "紫色花枝",
+    "style": "A",
+    "file": "06_A_紫色花枝_1067x3200.png",
+    "selected_variant": "06_A",
+    "input_dimensions": [
+      1067,
+      1600
+    ],
+    "output_dimensions": [
+      1067,
+      3200
+    ],
+    "source_page": "https://www.pexels.com/photo/purple-flowers-on-a-branch-18184147/",
+    "source_author": "Alejandra Montenegro",
+    "source_license_page": "https://www.pexels.com/license/",
+    "source_retrieved_at": "2026-09-06",
+    "top_photo_rgb_pixels_verified": true,
+    "sha256": "55cdc2d728fe4ae97cea6b0dfe13f96ed6f107fe48f975b85eee2329f0f32c4d",
+    "evaluation": "两串下垂花枝与紫绿配色保留，淡紫底块和纸片叶形统一。"
+  },
+  {
+    "id": "09_A",
+    "title": "荒漠白塔",
+    "style": "A",
+    "file": "09_A_荒漠白塔_1600x2134.png",
+    "selected_variant": "09_A",
+    "input_dimensions": [
+      1600,
+      1067
+    ],
+    "output_dimensions": [
+      1600,
+      2134
+    ],
+    "source_page": "https://www.pexels.com/photo/white-stupas-in-mongolian-desert-landscape-31446018/",
+    "source_author": "BYB BYB",
+    "source_license_page": "https://www.pexels.com/license/",
+    "source_retrieved_at": "2026-09-06",
+    "top_photo_rgb_pixels_verified": true,
+    "sha256": "cb01dffb50309b3e1fa5de3c80509eab7358e34b22978abf05c0ffc829cf0def",
+    "evaluation": "七个可见塔尖与错位关系基本保留，几何塔身与赭黄干刷地面符合方向；整体较淡。"
+  },
+  {
+    "id": "04_B",
+    "title": "河面垂枝",
+    "style": "B",
+    "file": "04_B_河面垂枝_1600x2136.png",
+    "selected_variant": "04_B",
+    "input_dimensions": [
+      1600,
+      1068
+    ],
+    "output_dimensions": [
+      1600,
+      2136
+    ],
+    "source_page": "https://www.pexels.com/photo/a-tree-branch-over-a-river-with-water-28080654/",
+    "source_author": "isabel ph",
+    "source_license_page": "https://www.pexels.com/license/",
+    "source_retrieved_at": "2026-09-06",
+    "top_photo_rgb_pixels_verified": true,
+    "sha256": "9618ebc5ac1abf02903a9536a330538c75e7771380bb0def6bb819d750729016",
+    "evaluation": "分叉主枝保留，断墨、稀疏水纹和弧向擦痕较接近参考。"
+  },
+  {
+    "id": "06_B",
+    "title": "紫色花枝",
+    "style": "B",
+    "file": "06_B_紫色花枝_1067x3200.png",
+    "selected_variant": "06_B_v2",
+    "input_dimensions": [
+      1067,
+      1600
+    ],
+    "output_dimensions": [
+      1067,
+      3200
+    ],
+    "source_page": "https://www.pexels.com/photo/purple-flowers-on-a-branch-18184147/",
+    "source_author": "Alejandra Montenegro",
+    "source_license_page": "https://www.pexels.com/license/",
+    "source_retrieved_at": "2026-09-06",
+    "top_photo_rgb_pixels_verified": true,
+    "sha256": "9fdecd793c263b3f4f0ed5f8a356cbef4eaa0bb25cd9d587ed0a32cc923ea8d7",
+    "evaluation": "采用修订后的第二版，紫绿双色花簇与弧形颗粒较协调；细花瓣并非逐一对应。"
+  },
+  {
+    "id": "10_B",
+    "title": "蓝天白塔",
+    "style": "B",
+    "file": "10_B_蓝天白塔_1200x3200.png",
+    "selected_variant": "10_B",
+    "input_dimensions": [
+      1200,
+      1600
+    ],
+    "output_dimensions": [
+      1200,
+      3200
+    ],
+    "source_page": "https://www.pexels.com/photo/white-stupa-against-clear-blue-sky-37218381/",
+    "source_author": "Pexels User",
+    "source_license_page": "https://www.pexels.com/license/",
+    "source_retrieved_at": "2026-09-06",
+    "top_photo_rgb_pixels_verified": true,
+    "sha256": "8e09aa5ce1b584931695893d332305b7d628a01b947c2252e04f17535f51e941",
+    "evaluation": "单塔结构、三扇拱门和台阶可辨，上部清晰、下部颗粒散开。"
+  }
+]
